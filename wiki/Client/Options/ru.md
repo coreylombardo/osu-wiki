@@ -134,7 +134,7 @@ If you are not signed in to the game client, it will automatically open the opti
 | `Комбо-всплески` | Allow combo bursts to display upon reaching a combo milestone. | Галочка | `Выключено` |
 | `Вспышки от нот` | Display a subtle glow behind each hit explosion. Does not disable lighting during Kiai Time. | Галочка | `Включено` |
 | `Эффекты шейдеров` | Display, graphically speaking, concert-type effects. This may automatically be disabled if your computer cannot handle it. | Галочка | `Выключено` |
-| `Сглаживающий фильтр` | Adjusts the shaders to be less flashy. This will automatically enable `Shaders`. | Галочка | `Выключено` |
+| `Сглаживающий фильтр` | Adjusts the shaders to be less flashy. This will automatically enable `Эффекты шейдеров`. | Галочка | `Выключено` |
 | `Формат скриншотов` | Sets the screenshot file format. | Список | `JPEG (малый размер)` |
 
 ### Главное меню
