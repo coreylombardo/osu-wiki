@@ -1,14 +1,14 @@
 # Настройки
 
-![Options menu](img/options_basic.jpg "Меню настроек \(боковая панель\)")
+![Options menu](img/options_basic-RU.jpg "Меню настроек \(боковая панель\)")
 
-In the main menu, click `Options` or press `O` (or press `Ctrl` + `O` which works in almost any screen) to access the options sidebar and change the available options in osu! Once the options menu is opened, you can type to search for a specific setting. The search bar's text will shake if the search query has no results.
+В главном меню нажмите на `Options` или клавишу `O` (или же `Ctrl` + `O`, что работает практически на любом экране), чтобы открыть палень настроек и изменить доступные опции в osu!. После открытия меню настроек можно набрать текст для поиска конкретной опции. Текст строки поиска дрогнет, если поисковый запрос не имеет результатов.
 
-When a setting that has a default value is changed, the grey vertical bar on the left will glow yellow for that setting. Clicking on this will reset the value back to its default value.
+При изменении опции, имеющей значение по умолчанию, серая вертикальная полоска слева будет светиться жёлтым цветом. Нажав на неё, можно вернуть значние этой опции к значению по умолчанию. 
 
 ## Общее
 
-![General icon](img/general.jpg "Иконка раздела «Общее»")
+![General icon](img/general-RU.jpg "Иконка раздела «Общее»")
 
 Этот раздел посвящён вашей учётной записи, языковым настройкам, и обновлениям osu!
 
@@ -29,7 +29,7 @@ If you are not signed in to the game client, it will automatically open the opti
 
 ---
 
-Если вы вошли в учётную запись, вы увидете:
+Если вы вошли в учётную запись, вы увидите это:
 
 | Название | Описание | Тип |
 | :-- | :-- | :-- |
@@ -66,7 +66,7 @@ If you are not signed in to the game client, it will automatically open the opti
 
 ---
 
-При открытии выпадающего списка `Ветка обновлений` появятся вот эти опции:
+При открытии выпадающего списка `Ветка обновлений` появятся эти опции:
 
 | Название | Описание |
 | :-- | :-- |
@@ -76,7 +76,7 @@ If you are not signed in to the game client, it will automatically open the opti
 
 ## Графика
 
-![Graphics icon](img/graphics.jpg "Иконка раздела «Графика»")
+![Graphics icon](img/graphics-RU.jpg "Иконка раздела «Графика»")
 
 Этот раздел посвящён внешнему виду клиента, некоторым частям интерфейса, и настройкам графики.
 
@@ -128,14 +128,14 @@ If you are not signed in to the game client, it will automatically open the opti
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Ползущие слайдеры` | Sliders will "snake out" from their starting position. | Галочка | `Включено` |
+| `Ползущие слайдеры` | Слайдеры будут разворачиваться из своей начальной точки. | Галочка | `Включено` |
 | `Фоновое видео` | Allow the beatmap background video to play during gameplay (can be disabled per-beatmap). | Галочка | `Включено` |
 | `Сториборды` | Allow beatmap storyboards to be played (can be disabled per-beatmap). | Галочка | `Включено` |
 | `Комбо-всплески` | Allow combo bursts to display upon reaching a combo milestone. | Галочка | `Выключено` |
 | `Вспышки от нот` | Display a subtle glow behind each hit explosion. Does not disable lighting during Kiai Time. | Галочка | `Включено` |
 | `Эффекты шейдеров` | Display, graphically speaking, concert-type effects. This may automatically be disabled if your computer cannot handle it. | Галочка | `Выключено` |
 | `Сглаживающий фильтр` | Adjusts the shaders to be less flashy. This will automatically enable `Эффекты шейдеров`. | Галочка | `Выключено` |
-| `Формат скриншотов` | Sets the screenshot file format. | Список | `JPEG (малый размер)` |
+| `Формат скриншотов` | Устанавливает формат скриншотов. | Список | `JPEG (малый размер)` |
 
 ### Главное меню
 
@@ -166,7 +166,7 @@ If you are not signed in to the game client, it will automatically open the opti
 
 ## Игра
 
-![Gameplay icon](img/gameplay.jpg "Иконка раздела «Игра»")
+![Gameplay icon](img/gameplay-RU.jpg "Иконка раздела «Игра»")
 
 Этот раздел посвящён настройкам, влияющим на игровой процесс.
 
@@ -214,7 +214,7 @@ If you open the dropdown list for `Score meter type`, you will be presented with
 
 ## Audio
 
-![Audio icon](img/audio.jpg "Audio icon")
+![Audio icon](img/audio-RU.jpg "Audio icon")
 
 This section is about audio related options.
 
@@ -248,7 +248,7 @@ The master, music, and effect volume can be changed elsewhere by pressing `Alt` 
 
 ## Skin
 
-![Skin icon](img/skin.jpg "Skin icon")
+![Skin icon](img/skin-RU.jpg "Skin icon")
 
 This section is about skin related things.
 
@@ -269,20 +269,19 @@ This section is about skin related things.
 | `Automatic cursor size` | Automatically adjusts the cursor size based on the circle size of the beatmap. | Галочка | `Выключено` |
 | `Use combo colour as tint for slider ball` | Slider balls will use the current combo colour (usually transparent). Requires skin support. | Галочка | `Включено` |
 
-## Input
+## Управление
 
-![Input icon](img/input.jpg "Input icon")
+![Input icon](img/input-RU.jpg "Иконка раздела «Управление»")
 
-This section is about input peripherals.
+Этот раздел посвящён периферийным устройствам ввода.
+### Мышь
 
-### Mouse
-
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Sensitivity` | Adjust the sensitivity of the mouse cursor. If changed, it may automatically enable `Raw Input`. | Slider | `1x` |
+| `Sensitivity` | Adjust the sensitivity of the mouse cursor. If changed, it may automatically enable `Raw Input`. | Ползунок | `1x` |
 | `Raw input` | Read mouse/tablet positional values directly from the hardware, without any post-processing (this is to ignore mouse acceleration). | Галочка | `Выключено` |
 | `Map absolute raw input to the osu! window` | Confine input devices with absolute positioning (e.g. pen tablets) to the game client window only. | Галочка | `Выключено` |
-| `Confine mouse cursor` | Prevent mouse cursor from leaving the game client window. See below for details. | Dropdown | `Only when fullscreen` |
+| `Confine mouse cursor` | Prevent mouse cursor from leaving the game client window. See below for details. | Список | `Only when fullscreen` |
 | `Disable mouse wheel in play mode` | Disable mouse wheel during gameplay. Using the mouse wheel can change the master volume value. | Галочка | `Выключено` |
 | `Disable mouse buttons in play mode` | Disable mouse buttons during gameplay. This is helpful for keyboard users. | Галочка | `Выключено` |
 | `Cursor ripples` | Show subtle ripple effect when the mouse is clicked. | Галочка | `Выключено` |
@@ -314,11 +313,11 @@ If you open the dropdown list for `Confine mouse cursor`, you will be presented 
 | `OS TabletPC support` | Improves compatibility with graphic tablets and tablet PCs. | Галочка | `Выключено` |
 | `Wiimote/TaTaCon Drum support` | Enable support for Nintendo's Wii Taiko Drum controller and Wiimotes. Pair device via Bluetooth before enabling. | Галочка | `Выключено` |
 
-## Editor
+## Редактор
 
-![Editor icon](img/editor.jpg "Editor icon")
+![Editor icon](img/editor-RU.jpg "Иконка раздела «Редактор»")
 
-This section is about the [beatmap editor](/wiki/Client/Beatmap_editor).
+Этот раздел повсящён [редактору карт](/wiki/Client/Beatmap_editor).
 
 These options only affect while working inside the beatmap editor or in test mode (test playing a beatmap).
 
@@ -335,9 +334,9 @@ These options only affect while working inside the beatmap editor or in test mod
 
 These options can be manually overwritten by using the `View` menu in the beatmap editor.
 
-## Online
+## Онлайн
 
-![Online icon](img/online.jpg "Online icon")
+![Online icon](img/online-RU.jpg "Иконка раздела «Онлайн»")
 
 This section is about chat, spectators, multi, and osu!direct.
 
@@ -362,10 +361,10 @@ This section is about chat, spectators, multi, and osu!direct.
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
 | `Discord Rich Presence` | Provides [rich presence data to Discord](/wiki/Guides/Discord_Rich_Presence). | Галочка | `Включено` |
-| `Integrate with Yahoo! status display` | Your Yahoo! messenger will show the song you are currently playing or listening to. This needs to be set from the website. | Галочка | `Выключено` |
-| `Integrate with MSN Live status display` | Your Windows Live Messenger will show the song you are currently playing or listening to. | Галочка | `Выключено` |
-| `Automatically start osu!direct downloads` | For [osu!supporters](/wiki/osu!supporter) only. When spectating or multiplaying, the beatmap will be downloaded automatically. | Галочка | `Включено` |
-| `Prefer no-video downloads` | For [osu!supporters](/wiki/osu!supporter) only. osu!direct downloads will be confined to no-video versions of beatmaps. | Галочка | `Выключено` |
+| `Включить интеграцию с Yahoo! Messenger` | Yahoo! Messenger будет показывать песню, которую вы слушаете или играете. Это нужно настроить на сайте. | Галочка | `Выключено` |
+| `Включить интеграцию с MSN Live` | Windows Live Messenger будет показывать песню, которую вы слушаете или играете. | Галочка | `Выключено` |
+| `Автоматически скачивать карты через osu!direct` | For [osu!supporters](/wiki/osu!supporter) only. When spectating or multiplaying, the beatmap will be downloaded automatically. | Галочка | `Включено` |
+| `Предпочитать карты без видео` | Только для [саппортеров osu!](/wiki/osu!supporter). Карты будут скачиваться через osu!direct без видео. | Галочка | `Выключено` |
 
 ### Игровой чат
 
@@ -380,7 +379,7 @@ This section is about chat, spectators, multi, and osu!direct.
 
 ## Разное
 
-![Maintenance icon](img/maintenance.jpg "Иконка раздела «Разное»")
+![Maintenance icon](img/maintenance-RU.jpg "Иконка раздела «Разное»")
 
 Этот раздел посвящён картам и обновлениям.
 
