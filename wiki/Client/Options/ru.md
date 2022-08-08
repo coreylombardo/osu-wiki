@@ -2,7 +2,7 @@
 
 ![Options menu](img/options_basic-RU.jpg "Меню настроек \(боковая панель\)")
 
-В главном меню нажмите на `Options` или клавишу `O` (или же `Ctrl` + `O`, что работает практически на любом экране), чтобы открыть палень настроек и изменить доступные опции в osu!. После открытия меню настроек можно набрать текст для поиска конкретной опции. Текст строки поиска дрогнет, если поисковый запрос не имеет результатов.
+В главном меню нажмите на `Options` или клавишу `O` (или же `Ctrl` + `O`, что работает практически на любом экране), чтобы открыть палень настроек и изменить доступные опции в osu!. После открытия меню настроек можно набрать текст для поиска конкретной опции. Строка поиска дрогнет, если поисковый запрос не имеет результатов.
 
 При изменении опции, имеющей значение по умолчанию, серая вертикальная полоска слева будет светиться жёлтым цветом. Нажав на неё, можно вернуть значние этой опции к значению по умолчанию. 
 
@@ -14,7 +14,7 @@
 
 ### Вход
 
-If you are not signed in to the game client, it will automatically open the options menu on start-up, prompting you to sign in. You can ignore this by pressing `Esc`, clicking on the back button, or navigating to the song selection screen. By not signing in, the game client will mark you as a "Guest" and you will not be able to fetch online scores, submit scores, or play [Multi](/wiki/Client/Interface/Multiplayer).
+Если вы не вошли в клиент игры, при запуске автоматически откроется меню настроек, предлагающее залогиниться. Вы можете проигнорировать его, нажав `Esc`, щёлкнув на кнопку «Назад» или перейдя на экран выбора песни. Если вы всё же не залогинишься, клиент пометит вас как «Guest», и вы не сможете получать онлайн-результаты, отправлять результаты или играть в [мультиплеер](/wiki/Client/Interface/Multiplayer).
 
 В этом случае будут показаны эти опции:
 
@@ -33,18 +33,18 @@ If you are not signed in to the game client, it will automatically open the opti
 
 | Название | Описание | Тип |
 | :-- | :-- | :-- |
-| `Logged in as {username}` | Показывает пользовательское меню, см. ниже. | Кнопка |
+| `Логин: {логин}` | Показывает пользовательское меню. Подробности см. ниже. | Кнопка |
 
 ---
 
-При нажатии на подсказку `Logged in as {username}` появится меню с этими кнопками:
+При нажатии на подсказку `Логин: {логин}` появится меню с этими кнопками:
 
 | Название | Описание | Тип |
 | :-- | :-- | :-- |
-| `1. View Profile` | View your profile on the website. | Кнопка |
-| `2. Sign Out` | Sign out from this game client. | Кнопка |
-| `3. Change Avatar` | Change your profile picture (this will redirect you to the website). | Кнопка |
-| `4. Close` | Close this dialog. You can also press `Esc`. | Кнопка |
+| `1. Открыть профиль` | Посмотреть свой профиль на сайте. | Кнопка |
+| `2. Выйти` | Выйти из своей учётной записи в клиенте. | Кнопка |
+| `3. Поменять аватарку` | Сменить свою аватарку. Это перенаправит вас на сайт. | Кнопка |
+| `4. Отмена` | Закрыть это меню. Также можно нажать `Esc`. | Кнопка |
 
 Вы можете открыть это меню, нажав на свой профиль, где он доступен.
 
@@ -80,20 +80,20 @@ If you are not signed in to the game client, it will automatically open the opti
 
 Этот раздел посвящён внешнему виду клиента, некоторым частям интерфейса, и настройкам графики.
 
-### Рендеринг
+### Обработчик графики
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Ограничение FPS` | Set the frame rate limit. See below for details. | Список | `Optimal` |
-| `Счётчик FPS` | Toggle the FPS counter. This is seen in the bottom-right corner of the screen. | Галочка | `Выключено` |
-| `Режим совместимости` | Use the old renderer that osu! used before with older computers. This will restart your game client. | Галочка | `Выключено` |
-| `Снизить кол-во потерянных кадров` | Adjust graphical settings to decrease dropped/stuttered frames. | Галочка | `Выключено` |
-| `Обнаруживать снижение производительности` | Warn you if another program on your computer may harm your client's performance. | Галочка | `Включено` |
+| `Ограничение FPS` | Устанавливает ограничение частоты кадров. Подробности см. ниже. | Список | `Optimal` |
+| `Счётчик FPS` | Включить счётчик частоты кадров. Он отображается в нижнем правом углу экрана. | Галочка | `Выключено` |
+| `Режим совместимости` | Использовать старый рендерер для устаревших компьютеров. Это перезапустит клиент игры. | Галочка | `Выключено` |
+| `Снизить кол-во потерянных кадров` | Настроить графику так, чтобы уменьшить кол-во потерянных кадров. | Галочка | `Выключено` |
+| `Обнаруживать снижение производительности` | Игра предупредит вас, если она обнаружит запущенные программы, которые могут отрицательно влиять на её производительность. | Галочка | `Включено` |
 
 ---
 
-*Note: When the game client is not the active window, the fps limit is dropped to 30fps automatically.*\
-*Caution to laptop users: using `Unlimited (gameplay)` may cause your laptop to overheat!*
+*Заметка: When the game client is not the active window, the fps limit is dropped to 30fps automatically.*\
+*Предостережение для пользователей ноутбуков: `Unlimited (gameplay)` может привести к перегреву ноутбука!*
 
 При открытии списка `Ограничение FPS` появятся эти опции:
 
@@ -104,15 +104,15 @@ If you are not signed in to the game client, it will automatically open the opti
 | `Optimal` | Limits the game client to eight times the refresh rate of your monitor, capping at 960fps. |
 | `Нет (во время игры)` | Limits the game client to the refresh rate of your monitor. See explanation below for details. |
 
-- Пояснение `Вертикальной синхронизации`: Проще говоря, вертикальная синхронизация заставляет игру ждать загрузки всего кадра перед его отображением.
+- Пояснение опции `Вертикальная синхронизация`: Проще говоря, вертикальная синхронизация заставляет игру ждать загрузки всего кадра перед его отображением.
   - Вероятно, вы хотите включить это, если видите «разрывы» экрана (когда нижняя часть игры отстаёт от верхней части).
   - Несмотря на вышеизложенное, это может вызвать задержки или замедления, так как клиент должен ждать загрузки каждого кадра.
-- Пояснение `Нет (во время игры)`: Unlimited only applies to when you are playing a beatmap.
+- Пояснение опции `Нет (во время игры)`: Эта опция применяется только при игре карты.
   - When you are not playing a beatmap, the frame rate is limited to twice the refresh rate of your monitor, or 240fps, whichever is higher.
   - This option is **not recommended**. Using the `Unlimited (gameplay)` option can lead to stutters.
   - Using the `Optimal` option instead offers imperceivable changes in system (input to output) latency when compared to `Unlimited (gameplay)`.
 
-### Layout
+### Параметры экрана
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
@@ -124,7 +124,7 @@ If you are not signed in to the game client, it will automatically open the opti
 
 - If `Полноэкранный режим` is disabled, `Running without fullscreen mode will increase your input latency!` will appear underneath it.
 
-### Детальные настройки
+### Детализация
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
@@ -188,86 +188,85 @@ If you are not signed in to the game client, it will automatically open the opti
 
 If you open the dropdown list for `Progress Display`, you will be presented with these options:
 
-| Name | Description |
+| Название | Описание |
 | :-- | :-- |
-| `Top-Right (Pie)` | Use a pie chart to show the remaining duration before the song starts and the time left before completion. This is seen left of the accuracy. |
-| `Top-Right (Bar)` | Use a short horizontal bar to display the time left before completion. This is seen underneath the score but above the accuracy. |
-| `Bottom-Right` | Use a short horizontal bar to display the time left before completion. This is seen in the bottom-right corner. |
-| `Bottom (long)` | Use a long horizontal bar to display the time left before completion. This is seen on the bottom. |
+| `Справа вверху (круг)` | Use a pie chart to show the remaining duration before the song starts and the time left before completion. This is seen left of the accuracy. |
+| `Справа вверху (полоса)` | Use a short horizontal bar to display the time left before completion. This is seen underneath the score but above the accuracy. |
+| `Справа внизу` | Use a short horizontal bar to display the time left before completion. This is seen in the bottom-right corner. |
+| `Внизу (полоса)` | Use a long horizontal bar to display the time left before completion. This is seen on the bottom. |
 
 ---
 
-If you open the dropdown list for `Score meter type`, you will be presented with these options:
+If you open the dropdown list for `Шкала точности`, you will be presented with these options:
 
-| Name | Description |
+| Название | Описание |
 | :-- | :-- |
-| `None` | Do not use a meter to display the player's hit timing. |
-| `Colour` | Use coloured blocks to display hit timing. (osu!catch will always use this if `Hit error` is selected.) |
-| `Hit error` | Use a meter to display hit timing. This shows if the player had hit too early or too late. |
+| `Отключена` | Do not use a meter to display the player's hit timing. |
+| `Цветовая` | Use coloured blocks to display hit timing. (osu!catch will always use this if `Hit error` is selected.) |
+| `Отклонение от нуля` | Use a meter to display hit timing. This shows if the player had hit too early or too late. |
 
-### Song Select
+### Выбор песни
 
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Display beatmaps from` | This adjusts the **lowest** difficulty beatmap that will be displayed in song select. | Slider | `0 stars` |
-| `up to` | This adjusts the **highest** difficulty beatmap that will be displayed in song select. | Slider | `10+ stars` |
+| `Показывать карты от` | This adjusts the **lowest** difficulty beatmap that will be displayed in song select. | Ползунок | `0 звёзд` |
+| `до` | This adjusts the **highest** difficulty beatmap that will be displayed in song select. | Ползунок | `10+ звёзд` |
 
-## Audio
+## Звук
 
-![Audio icon](img/audio-RU.jpg "Audio icon")
+![Audio icon](img/audio-RU.jpg "Иконка раздела «Звук»")
 
-This section is about audio related options.
+Этот раздел посвящён опциям, связанным со звуком.
+### Устройства
 
-### Devices
-
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Output device` | Select the preferred output device for audio. (Options given are based on what your computer reports.) | Dropdown | `Default` |
+| `Устройство вывода` | Select the preferred output device for audio. (Options given are based on what your computer reports.) | Список | `Default` |
 | `Audio compatibility mode` | Uses the legacy audio engine which has higher latency but is more compatible. | Галочка | `Выключено` |
 
 ### Volume
 
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Master` | Controls the main volume. | Slider | `100%` |
-| `Music` | Controls the music volume. | Slider | `80%` |
-| `Effect` | Controls the hitsounds and in-game sounds. | Slider | `80%` |
-| `Ignore beatmap hitsounds` | Favour hitsounds supplied by the current skin instead of the beatmap's included hitsounds. | Галочка | `Выключено` |
+| `Общее` | Controls the main volume. | Ползунок | `100%` |
+| `Музыка` | Controls the music volume. | Ползунок | `80%` |
+| `Эффекты` | Controls the hitsounds and in-game sounds. | Ползунок | `80%` |
+| `Игнорировать хитсаунды` | Favour hitsounds supplied by the current skin instead of the beatmap's included hitsounds. | Галочка | `Выключено` |
 
 The master, music, and effect volume can be changed elsewhere by pressing `Alt` and scrolling up or down or by pressing `Alt` and pressing `Up` or `Down`.
 
-### Offset Adjustment
+### Универсальный оффсет
 
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Universal offset` | The offset (in milliseconds) that all beatmaps will use (in addition to the local offset). | Slider | `0ms` |
-| `Offset wizard` | Opens the offset wizard. | Button |  |
+| `Универсальный оффсет` | The offset (in milliseconds) that all beatmaps will use (in addition to the local offset). | Ползунок | `0 мс` |
+| `Мастер настройки оффсета` | Открывает мастер настройки оффсета. | Кнопка |  |
 
-- For details about the offset wizard, see [Offset Wizard](/wiki/Client/Options/Offset_Wizard).
-- For details on using the offset wizard, see [How to use Offset Wizard](/wiki/Guides/How_to_Use_the_Offset_Wizard).
+- Подробнее о мастере настройки оффсета: см. [Мастер настройки оффсета](/wiki/Client/Options/Offset_Wizard)
+- Подробнее об использовании мастера настройки оффсета: см. [Как использовать мастер настройки оффсета](/wiki/Guides/How_to_Use_the_Offset_Wizard)
 
-## Skin
+## Скин
 
-![Skin icon](img/skin-RU.jpg "Skin icon")
+![Skin icon](img/skin-RU.jpg "Иконка раздела «Скин»")
 
-This section is about skin related things.
+Этот раздел посвящён тем вещам, связанным со скинами.
 
-### Skin
+### Скин
 
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Skin sample image` | Display various gameplay elements from the selected skin. Click to cycle through different element sets. | Button |  |
-| `Current skin` | Changes the skin. Items in dropdown are based on what is in the `osu!/Skins` folder. (Names are based on folder name.) | Dropdown | `Default` |
-| `Preview gameplay` | Previews the skin by playing a random beatmap with auto mod. Mode is determined on what was selected in song selection. | Button |  |
-| `Open current skin folder` | Opens the selected skin folder. | Button |  |
-| `Export as .osk` | Exports the current skin as a `.osk` file to share. Once your game client is done exporting, it will open the directory containing the `.osk` file. | Button |  |
-| `Ignore all beatmap skins` | Favour the selected skin over the beatmap's included skin. This does not include hitsounds (see next option below). | Галочка | `Выключено` |
-| `Use skin's sound samples` | Always use the selected skin's hitsounds instead of the beatmap's included hitsounds. | Галочка | `Включено` |
-| `Use Taiko skin for Taiko mode` | Use osu!taiko-specific skin elements, if supplied by the selected skin. See [Skinning/osu!taiko](/wiki/Skinning/osu!taiko) for details. | Галочка | `Выключено` |
-| `Always use skin cursor` | Favour the current skin's cursor over any cursors supplied by beatmaps. | Галочка | `Выключено` |
-| `Cursor size` | Adjust the cursor size. | Slider | `1x` |
-| `Automatic cursor size` | Automatically adjusts the cursor size based on the circle size of the beatmap. | Галочка | `Выключено` |
-| `Use combo colour as tint for slider ball` | Slider balls will use the current combo colour (usually transparent). Requires skin support. | Галочка | `Включено` |
+| `Skin sample image` | Display various gameplay elements from the selected skin. Click to cycle through different element sets. | Кнопка |  |
+| `Выбор скина` | Changes the skin. Items in dropdown are based on what is in the `osu!/Skins` folder. (Names are based on folder name.) | Список | `Default` |
+| `Посмотреть на внешний вид` | Previews the skin by playing a random beatmap with auto mod. Mode is determined on what was selected in song selection. | Кнопка |  |
+| `Открыть директорию скина` | Открывает папку выбранного скина. | Кнопка |  |
+| `Экспортировать в .osk` | Exports the current skin as a `.osk` file to share. Once your game client is done exporting, it will open the directory containing the `.osk` file. | Кнопка |  |
+| `Игнорировать скины всех карт` | Favour the selected skin over the beatmap's included skin. This does not include hitsounds (see next option below). | Галочка | `Выключено` |
+| `Свои хитсаунды и озвучка интерфейса` | Always use the selected skin's hitsounds instead of the beatmap's included hitsounds. | Галочка | `Включено` |
+| `Свой скин для тайко` | Use osu!taiko-specific skin elements, if supplied by the selected skin. See [Skinning/osu!taiko](/wiki/Skinning/osu!taiko) for details. | Галочка | `Выключено` |
+| `Свой курсор из скина` | Favour the current skin's cursor over any cursors supplied by beatmaps. | Галочка | `Выключено` |
+| `Размер курсора` | Adjust the cursor size. | Ползунок | `1x` |
+| `Автоподстройка размера курсора` | Automatically adjusts the cursor size based on the circle size of the beatmap. | Галочка | `Выключено` |
+| `Окрашивать шар на слайдере в цвета комбо` | Slider balls will use the current combo colour (usually transparent). Requires skin support. | Галочка | `Включено` |
 
 ## Управление
 
@@ -278,13 +277,13 @@ This section is about skin related things.
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Sensitivity` | Adjust the sensitivity of the mouse cursor. If changed, it may automatically enable `Raw Input`. | Ползунок | `1x` |
-| `Raw input` | Read mouse/tablet positional values directly from the hardware, without any post-processing (this is to ignore mouse acceleration). | Галочка | `Выключено` |
-| `Map absolute raw input to the osu! window` | Confine input devices with absolute positioning (e.g. pen tablets) to the game client window only. | Галочка | `Выключено` |
-| `Confine mouse cursor` | Prevent mouse cursor from leaving the game client window. See below for details. | Список | `Only when fullscreen` |
-| `Disable mouse wheel in play mode` | Disable mouse wheel during gameplay. Using the mouse wheel can change the master volume value. | Галочка | `Выключено` |
-| `Disable mouse buttons in play mode` | Disable mouse buttons during gameplay. This is helpful for keyboard users. | Галочка | `Выключено` |
-| `Cursor ripples` | Show subtle ripple effect when the mouse is clicked. | Галочка | `Выключено` |
+| `Чувствительность мыши` | Adjust the sensitivity of the mouse cursor. If changed, it may automatically enable `Прямой ввод`. | Ползунок | `1x` |
+| `Прямой ввод` | Read mouse/tablet positional values directly from the hardware, without any post-processing (this is to ignore mouse acceleration). | Галочка | `Выключено` |
+| `Отображать активную область в окно osu!` | Confine input devices with absolute positioning (e.g. pen tablets) to the game client window only. | Галочка | `Выключено` |
+| `Ограничивать курсор` | Prevent mouse cursor from leaving the game client window. See below for details. | Список | `Only when fullscreen` |
+| `Отключить колёсико мыши во время игры` | Disable mouse wheel during gameplay. Using the mouse wheel can change the master volume value. | Галочка | `Выключено` |
+| `Отключить кнопки мыши во время игры` | Disable mouse buttons during gameplay. This is helpful for keyboard users. | Галочка | `Выключено` |
+| `Показывать волны при нажатии` | Show subtle ripple effect when the mouse is clicked. | Галочка | `Выключено` |
 
 - When `Raw Input` is enabled, it will display the number of reports it receives per second and the latency in milliseconds.
 - The cursor ripple effect can be triggered by pressing `M1` and `M2` during game play.
@@ -293,25 +292,25 @@ This section is about skin related things.
 
 If you open the dropdown list for `Confine mouse cursor`, you will be presented with these options:
 
-| Name | Description |
+| Название | Описание |
 | :-- | :-- |
-| `Never` | Never prevent the mouse from leaving the game client. |
-| `Only when fullscreen` | Only prevent the mouse from leaving the game client when fullscreen (this also includes `Letterboxing`). |
-| `Always` | Always prevent the mouse from leaving the game client in any resolution. |
+| `никогда` | Never prevent the mouse from leaving the game client. |
+| `в полноэкр. режиме` | Only prevent the mouse from leaving the game client when fullscreen (this also includes `Letterboxing`). |
+| `всегда` | Always prevent the mouse from leaving the game client in any resolution. |
 
-### Keyboard
+### Клавиатура
 
-| Name | Description | Type |
+| Название | Описание | Тип |
 | :-- | :-- | :-- |
-| `Change keyboard bindings` | Displays a dialog which allows you to see or change your keyboard bindings. See [Keyboard Bindings](/wiki/Client/Options/Keyboard_bindings) for more details. | Button |
-| `osu!mania layout` | Displays a dialog which allows you to see or change your osu!mania bindings. See [osu!mania layout](/wiki/Game_mode/osu!mania) for more details. | Button |
+| `Назначание клавиш` | Displays a dialog which allows you to see or change your keyboard bindings. See [Keyboard Bindings](/wiki/Client/Options/Keyboard_bindings) for more details. | Кнопка |
+| `Раскладка osu!mania` | Displays a dialog which allows you to see or change your osu!mania bindings. See [osu!mania layout](/wiki/Game_mode/osu!mania) for more details. | Кнопка |
 
-### Other
+### Другое
 
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `OS TabletPC support` | Improves compatibility with graphic tablets and tablet PCs. | Галочка | `Выключено` |
-| `Wiimote/TaTaCon Drum support` | Enable support for Nintendo's Wii Taiko Drum controller and Wiimotes. Pair device via Bluetooth before enabling. | Галочка | `Выключено` |
+| `Поддержка TabletPC` | Improves compatibility with graphic tablets and tablet PCs. | Галочка | `Выключено` |
+| `Поддержка Wiimote/TaTaCon Drum` | Enable support for Nintendo's Wii Taiko Drum controller and Wiimotes. Pair device via Bluetooth before enabling. | Галочка | `Выключено` |
 
 ## Редактор
 
@@ -321,16 +320,16 @@ If you open the dropdown list for `Confine mouse cursor`, you will be presented 
 
 These options only affect while working inside the beatmap editor or in test mode (test playing a beatmap).
 
-### General
+### Общее
 
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Background video` | Play the beatmap's background video while editing. | Галочка | `Выключено` |
-| `Always use default skin` | Use osu!'s default skin while editing, despite the current skin's settings. | Галочка | `Выключено` |
-| `Snaking sliders` | Enable snaking sliders while editing. | Галочка | `Включено` |
-| `Hit animations` | Enable hit animations while editing. | Галочка | `Выключено` |
-| `Follow points` | Enable follow points while editing. | Галочка | `Включено` |
-| `Stacking` | Stack the hit circles as if in gameplay. | Галочка | `Включено` |
+| `Фоновое видео` | Play the beatmap's background video while editing. | Галочка | `Выключено` |
+| `Использовать стандартный скин` | Use osu!'s default skin while editing, despite the current skin's settings. | Галочка | `Выключено` |
+| `Ползущие слайдеры` | Enable snaking sliders while editing. | Галочка | `Включено` |
+| `Анимация попадания` | Enable hit animations while editing. | Галочка | `Выключено` |
+| `Связывающие точки` | Enable follow points while editing. | Галочка | `Включено` |
+| `Показывать стеки` | Stack the hit circles as if in gameplay. | Галочка | `Включено` |
 
 These options can be manually overwritten by using the `View` menu in the beatmap editor.
 
@@ -340,21 +339,21 @@ These options can be manually overwritten by using the `View` menu in the beatma
 
 This section is about chat, spectators, multi, and osu!direct.
 
-### Alerts and Privacy
+### Оповещения и личные данные
 
-| Name | Description | Type | Default |
+| Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Chat ticker` | Display the most recent chat message at the bottom of the screen. The message that displays is from the current channel you are viewing. | Галочка | `Выключено` |
-| `Automatically hide chat during gameplay` | If chat is open during breaks or in-game menus, the game client will automatically hide it when gameplay starts again. | Галочка | `Включено` |
-| `Show a notification pop-up when someone says your name` | When someone [mentions your username](/wiki/Client/Interface/Chat_console/Highlight) in chat, a notification will appear. | Галочка | `Включено` |
-| `Show chat message notifications` | Display a notification, when new chat messages arrive. | Галочка | `Включено` |
-| `Play a sound when someone says your name` | When someone [mentions your username](/wiki/Client/Interface/Chat_console/Highlight) in chat, a sound will play. | Галочка | `Включено` |
-| `Share your city location with others` | Share your city location in your user card (note that your country is already shared). | Галочка | `Выключено` |
-| `Show spectators` | Show a list of current spectators on the left of the screen during gameplay. | Галочка | `Включено` |
-| `Automatically link beatmaps to spectators` | Send currently-playing beatmap to `#spectator` channel when you have spectators. | Галочка | `Включено` |
-| `Show notification popups instantly during gameplay` | Allow a push notification to display during gameplay. If disabled, the game client will wait until you are done playing. | Галочка | `Включено` |
-| `Show notification popups when friends change status` | Display a notification, whenever your friend goes online or offline. | Галочка | `Включено` |
-| `Allow multiplayer game invites from all users` | Allow multi game invites from anyone. Disabling this will limit multiplayer invites to friends only. | Галочка | `Включено` |
+| `Последняя строка чата` | Display the most recent chat message at the bottom of the screen. The message that displays is from the current channel you are viewing. | Галочка | `Выключено` |
+| `Сворачивать чат во время игры` | If chat is open during breaks or in-game menus, the game client will automatically hide it when gameplay starts again. | Галочка | `Включено` |
+| `Показывать уведомление при упоминании вашего ника` | When someone [mentions your username](/wiki/Client/Interface/Chat_console/Highlight) in chat, a notification will appear. | Галочка | `Включено` |
+| `Показывать уведомления чата` | Display a notification, when new chat messages arrive. | Галочка | `Включено` |
+| `Звуковое уведомление при упоминании вашего ника` | When someone [mentions your username](/wiki/Client/Interface/Chat_console/Highlight) in chat, a sound will play. | Галочка | `Включено` |
+| `Показывать другим своё местоположение` | Share your city location in your user card (note that your country is already shared). | Галочка | `Выключено` |
+| `Показывать список зрителей` | Show a list of current spectators on the left of the screen during gameplay. | Галочка | `Включено` |
+| `Отправлять зрителям ссылку на играемую карту` | Send currently-playing beatmap to `#spectator` channel when you have spectators. | Галочка | `Включено` |
+| `Показывать уведомления во время игры` | Allow a push notification to display during gameplay. If disabled, the game client will wait until you are done playing. | Галочка | `Включено` |
+| `Уведомлять, когда друзья меняют статус` | Display a notification, whenever your friend goes online or offline. | Галочка | `Включено` |
+| `Разрешить приглашения от всех игроков` | Allow multi game invites from anyone. Disabling this will limit multiplayer invites to friends only. | Галочка | `Включено` |
 
 ### Интеграция
 

@@ -5,11 +5,6 @@ tags:
 
 # Список изменений
 
-<!-- for the purpose of learning the history through the Wayback Machine (https://web.archive.org/), the changelog is available at different URLs:
-  - http://osu.ppy.sh/?p=changelog
-  - http://osu.ppy.sh/p/changelog
---->
-
 **[Список изменений](https://osu.ppy.sh/home/changelog)** — страница, на которой [команда разработчиков osu!](/wiki/People/The_Team/Developers) подробно описывает свои ежедневные улучшения, добавления, и исправления багов в игре. Там записываются все изменения из предыдущих выпусков ради архивации.
 
 Списки изменений веб-сайта и osu!(lazer) генерируются автоматически на основе релизов тех проектов на GitHub, а остальные обслуживаются вручную.
