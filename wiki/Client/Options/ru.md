@@ -14,7 +14,7 @@
 
 ### Вход
 
-Если вы не вошли в клиент игры, при запуске автоматически откроется меню настроек, предлагающее залогиниться. Вы можете проигнорировать его, нажав `Esc`, щёлкнув на кнопку «Назад» или перейдя на экран выбора песни. Если вы всё же не залогинишься, клиент пометит вас как «Guest», и вы не сможете получать онлайн-результаты, отправлять результаты или играть в [мультиплеер](/wiki/Client/Interface/Multiplayer).
+Если вы не вошли в игровой клиент, при запуске автоматически откроется меню настроек, предлагающее залогиниться. Вы можете проигнорировать его, нажав `Esc`, щёлкнув на кнопку «Назад» или перейдя на экран выбора песни. Если вы всё же не залогинишься, клиент пометит вас как «Guest», и вы не сможете получать онлайн-результаты, отправлять результаты или играть в [мультиплеер](/wiki/Client/Interface/Multiplayer).
 
 В этом случае будут показаны эти опции:
 
@@ -86,29 +86,29 @@
 | :-- | :-- | :-- | :-- |
 | `Ограничение FPS` | Устанавливает ограничение частоты кадров. Подробности см. ниже. | Список | `Optimal` |
 | `Счётчик FPS` | Включить счётчик частоты кадров. Он отображается в нижнем правом углу экрана. | Галочка | `Выключено` |
-| `Режим совместимости` | Использовать старый рендерер для устаревших компьютеров. Это перезапустит клиент игры. | Галочка | `Выключено` |
+| `Режим совместимости` | Использовать старый рендерер для устаревших компьютеров. Это перезапустит игровой клиент. | Галочка | `Выключено` |
 | `Снизить кол-во потерянных кадров` | Настроить графику так, чтобы уменьшить кол-во потерянных кадров. | Галочка | `Выключено` |
 | `Обнаруживать снижение производительности` | Игра предупредит вас, если она обнаружит запущенные программы, которые могут отрицательно влиять на её производительность. | Галочка | `Включено` |
 
 ---
 
-*Заметка: When the game client is not the active window, the fps limit is dropped to 30fps automatically.*\
+*Примечание: Когда игровой клиент не выбран в качестве активного окна, ограничение частоты кадров автоматически снижается до 30 кадров в секунду.*\
 *Предостережение для пользователей ноутбуков: `Unlimited (gameplay)` может привести к перегреву ноутбука!*
-
+ 
 При открытии списка `Ограничение FPS` появятся эти опции:
 
 | Название | Описание |
 | :-- | :-- |
-| `Вертикальная синхронизация` | Limits the game client to the refresh rate of your monitor. See explanation below for details. |
-| `Power Saving` | Limits the game client to twice the refresh rate of your monitor. |
-| `Optimal` | Limits the game client to eight times the refresh rate of your monitor, capping at 960fps. |
-| `Нет (во время игры)` | Limits the game client to the refresh rate of your monitor. See explanation below for details. |
+| `Вертикальная синхронизация` | Ограничивает игровой клиент частотой обновления вашего монитора. Подробности см. ниже. |
+| `Power Saving` | Ограничивает игровой клиент удвоенной частотой обновления вашего монитора. |
+| `Optimal` | Ограничивает игровой клиент в восемь раз выше частоты обновления вашего монитора, максимум до 960 кадров в секунду. |
+| `Нет (во время игры)` | Ограничивает игровой клиент частотой обновления вашего монитора. Подробности см. ниже. |
 
 - Пояснение опции `Вертикальная синхронизация`: Проще говоря, вертикальная синхронизация заставляет игру ждать загрузки всего кадра перед его отображением.
   - Вероятно, вы хотите включить это, если видите «разрывы» экрана (когда нижняя часть игры отстаёт от верхней части).
   - Несмотря на вышеизложенное, это может вызвать задержки или замедления, так как клиент должен ждать загрузки каждого кадра.
 - Пояснение опции `Нет (во время игры)`: Эта опция применяется только при игре карты.
-  - When you are not playing a beatmap, the frame rate is limited to twice the refresh rate of your monitor, or 240fps, whichever is higher.
+  - Когда вы не играете карту, частота кадров ограничена удвоенной частотой обновления вашего монитора, или 240 кадрами в секунду, в зависимости от того, что выше.
   - This option is **not recommended**. Using the `Unlimited (gameplay)` option can lead to stutters.
   - Using the `Optimal` option instead offers imperceivable changes in system (input to output) latency when compared to `Unlimited (gameplay)`.
 
@@ -116,33 +116,33 @@
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Разрешение` | Set the game client resolution. The listed resolutions are limited to what your monitor/GPU supports. | Список |  |
-| `Полноэкранный режим` | Run the game client in fullscreen (usually decreases input latency). | Галочка | `Включено` |
-| `Render at native resolution` | Use the full native resolution but will display osu! in a smaller centred portion of the screen. | Галочка | `Включено` |
-| `По горизонтали` | Adjust horizontal offset for letterboxing mode. Only appears if `Render at native resolution` is enabled. | Ползунок | `0%` |
-| `По вертикали` | Adjust vertical offset for letterboxing mode. Only appears if `Render at native resolution` is enabled. | Ползунок | `0%` |
+| `Разрешение` | Устанавливает разрешение игрового клиента. Доступные разрешения ограничены тем, что поддерживает ваш монитор/видеокарта. | Список |  |
+| `Полноэкранный режим` | Игра будет работать в полноэкранном режиме. Это обычно уменьшает входную задержку. | Галочка | `Включено` |
+| `Render at native resolution` | Использует полное собственное разрешение, но при этом игра будет отображаться в меньшей части экрана по центру (леттербоксинг). | Галочка | `Включено` |
+| `По горизонтали` | Настраивает горизонтальное смещение для режима леттербоксинга. Появляется только при включении опции `Render at native resolution`. | Ползунок | `0%` |
+| `По вертикали` | Настраивает вертикальное смещение для режима леттербоксинга. Появляется только при включении опции `Render at native resolution`. | Ползунок | `0%` |
 
-- If `Полноэкранный режим` is disabled, `Running without fullscreen mode will increase your input latency!` will appear underneath it.
+- Если `Полноэкранный режим` выключен, под ним появится надпись `Running without fullscreen mode will increase your input latency!`.
 
 ### Детализация
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
 | `Ползущие слайдеры` | Слайдеры будут разворачиваться из своей начальной точки. | Галочка | `Включено` |
-| `Фоновое видео` | Allow the beatmap background video to play during gameplay (can be disabled per-beatmap). | Галочка | `Включено` |
-| `Сториборды` | Allow beatmap storyboards to be played (can be disabled per-beatmap). | Галочка | `Включено` |
-| `Комбо-всплески` | Allow combo bursts to display upon reaching a combo milestone. | Галочка | `Выключено` |
-| `Вспышки от нот` | Display a subtle glow behind each hit explosion. Does not disable lighting during Kiai Time. | Галочка | `Включено` |
-| `Эффекты шейдеров` | Display, graphically speaking, concert-type effects. This may automatically be disabled if your computer cannot handle it. | Галочка | `Выключено` |
-| `Сглаживающий фильтр` | Adjusts the shaders to be less flashy. This will automatically enable `Эффекты шейдеров`. | Галочка | `Выключено` |
+| `Фоновое видео` | Разрешает воспроизведение фонового видео во время игры (можно отключить на каждой конкретной карте). | Галочка | `Включено` |
+| `Сториборды` | Разрешает воспроизведение сториборда (можно отключить на каждой конкретной карте). | Галочка | `Включено` |
+| `Комбо-всплески` | Разрешает отображение комбо-всплесков при достижении рубежа комбо. | Галочка | `Выключено` |
+| `Вспышки от нот` | Показывает нежное свечение за каждым хит-результатом. Не отключает освещение во время киая. | Галочка | `Включено` |
+| `Эффекты шейдеров` | Display, graphically speaking, concert-type effects. Они могут быть автоматически отключены, если ваш компьютер недостаточно мощный для них. | Галочка | `Выключено` |
+| `Сглаживающий фильтр` | Настраивает шейдеры, чтобы они были менее яркими. Это автоматически включит `Эффекты шейдеров`. | Галочка | `Выключено` |
 | `Формат скриншотов` | Устанавливает формат скриншотов. | Список | `JPEG (малый размер)` |
 
 ### Главное меню
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Включить снег` | Show snow effects on the main menu (forcibly enabled during the winter). | Галочка | `Выключено` |
-| `Параллакс` | Show a slight parallax while navigating in-game menus (not during gameplay). | Галочка | `Включено` |
+| `Включить снег` | Show snow effects on the main menu (принудительно включён зимой). | Галочка | `Выключено` |
+| `Параллакс` | Show a slight parallax while navigating in-game menus (вне самой игры). | Галочка | `Включено` |
 | `Показывать советы` | Show a tip every time you visit the main menu. (Tips are not displayed in the cuttingedge builds.) | Галочка | `Включено` |
 | `Включить голосовое приветствие` | Play the "welcome" and "see ya" sounds upon opening and closing the game respectively. | Галочка | `Включено` |
 | `Использовать музыкальную тему osu!` | If enabled, the main theme song will play after the game client is opened. Once the song changes, you cannot play it again until the game client has been restarted. | Галочка | `Включено` |
