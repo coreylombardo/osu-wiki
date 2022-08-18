@@ -109,8 +109,8 @@
   - Несмотря на вышеизложенное, это может вызвать задержки или замедления, так как клиент должен ждать загрузки каждого кадра.
 - Пояснение опции `Нет (во время игры)`: Эта опция применяется только при игре карты.
   - Когда вы не играете карту, частота кадров ограничена удвоенной частотой обновления вашего монитора, или 240 кадрами в секунду, в зависимости от того, что выше.
-  - This option is **not recommended**. Using the `Unlimited (gameplay)` option can lead to stutters.
-  - Using the `Optimal` option instead offers imperceivable changes in system (input to output) latency when compared to `Unlimited (gameplay)`.
+  - Эта опция **не рекомендуется**. Использование `Unlimited (gameplay)` может привести к визуальным задержкам.
+  - С другой стороны, опция `Optimal` обеспечивает вовсе незаметное изменение системной задержки (как вводной, так и выходной) по сравнению с `Unlimited (gameplay)`.
 
 ### Параметры экрана
 
@@ -141,7 +141,7 @@
 
 | Название | Описание | Тип | По умолчанию |
 | :-- | :-- | :-- | :-- |
-| `Включить снег` | Show snow effects on the main menu (принудительно включён зимой). | Галочка | `Выключено` |
+| `Включить снег` | Показывать снежные эффекты в главном меню (принудительно включён зимой). | Галочка | `Выключено` |
 | `Параллакс` | Show a slight parallax while navigating in-game menus (вне самой игры). | Галочка | `Включено` |
 | `Показывать советы` | Show a tip every time you visit the main menu. (Tips are not displayed in the cuttingedge builds.) | Галочка | `Включено` |
 | `Включить голосовое приветствие` | Play the "welcome" and "see ya" sounds upon opening and closing the game respectively. | Галочка | `Включено` |
