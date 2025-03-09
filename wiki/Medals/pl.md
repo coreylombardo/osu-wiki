@@ -1,4 +1,5 @@
 ---
+outdated_since: 686edf8b6519252bb823e92350e052f669f344a5
 outdated_translation: true
 ---
 
@@ -61,7 +62,7 @@ Medale Dedication są przyznawane za poświęcenie dużej ilości czasu w każdy
 
 ## Mod Introduction
 
-*Zobacz także: [Modyfikacje](/wiki/Game_modifier).*
+*Zobacz także: [Modyfikacje](/wiki/Gameplay/Game_modifier).*
 
 Medale Mod Introduction są przyznawane za ukończenie dowolnej beatmapy z konkretną modyfikacją.
 Mają one za zadanie zachęcić nowszych użytkowników do wypróbowania każdej modyfikacji oraz odkrycia, co osu! ma do zaoferowania.

@@ -7,13 +7,13 @@ tags:
   - IRC bots
 ---
 
-## Compte bot  
+## Compte bot
 
 Un **compte bot** est un type spécial de compte osu! appartenant à un service automatisé et non à une personne. Sur le site web, ils ont un badge de groupe blanc intitulé `BOT`, et seulement la section `moi!` de leur profil est visible. Les comptes bots sont principalement utilisés pour héberger des "tchat bots" qui offrent des fonctionnalités variées dans les salons [multijoueur](/wiki/Client/Interface/Multiplayer) ou encore dans les messages privés.
 
 Les comptes bot ne peuvent être créés que via [un formulaire d'inscription](#créer-un-compte-bot). Essayer de créer un compte bot en s'inscrivant est considéré comme du multi-compte, ce qui est à l'encontre des [règles de la communauté](/wiki/Rules#règles-communautaires).
 
-## Avantages des comptes bot  
+## Avantages des comptes bot
 
 La différence principale entre les comptes personnels et les comptes bot se situe dans la limite de messages qu'ils peuvent envoyer dans le [tchat](/wiki/Client/Interface/Chat_console). Les comptes bot ont de plus grandes limites pour permettre à leurs services d'interagir avec plusieurs utilisateurs en même temps sans risques de voir leur compte [réduit au silence](/wiki/Silence) :
 
@@ -52,7 +52,7 @@ Le mail doit contenir :
 - Un lien vers le code source et la documentation
 - Un résumé rapide de ce que fait votre bot
 
-L'[équipe de support aux comptes](/wiki/People/The_Team/Account_support_team) examinera votre demande. Si votre demande est refusée, ils vous expliqueront pourquoi. Si votre requête est approuvée, ils vous créeront votre compte bot et vous expliqueront comment l'utiliser.
+L'[équipe de support aux comptes](/wiki/People/Account_support_team) examinera votre demande. Si votre demande est refusée, ils vous expliqueront pourquoi. Si votre requête est approuvée, ils vous créeront votre compte bot et vous expliqueront comment l'utiliser.
 
 <!-- TODO: history section would be nice, talking about LogBot, BanchoBot, the phpbb crawler accounts, the first user-run bots, Quality Assurance Team, osu!team, ... -->
 

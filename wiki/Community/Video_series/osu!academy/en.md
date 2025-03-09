@@ -2,7 +2,7 @@
 
 ![](img/logo.png "osu!academy logo")
 
-The **osu!academy** is a video series hosted by the [osu! team](/wiki/People/The_Team) that aims to give a comprehensive look at all aspects of osu!, from playing to mapping and everything in between.
+The **osu!academy** is a video series hosted by the [osu! team](/wiki/People/osu!_team) that aims to give a comprehensive look at all aspects of osu!, from playing to mapping and everything in between.
 
 Throughout the years, osu!academy has been hosted by multiple members of the community, the most prominent of which being [ztrot](https://osu.ppy.sh/users/6347), who has maintained the series for many years and is the face of the project.
 
@@ -14,7 +14,7 @@ The main series of osu!academy serves as a general introduction to the broad wor
 
 | No. | Title | Description |
 | :-: | :-- | :-- |
-| 0 | [Lazer installer setup guide](https://www.youtube.com/watch?v=kO5ISAzRbPE) | [ztrot](https://osu.ppy.sh/users/6347) covers the process of installing the osu!(lazer) client. |
+| 0 | [Lazer installer setup guide](https://www.youtube.com/watch?v=kO5ISAzRbPE) | [ztrot](https://osu.ppy.sh/users/6347) covers the process of installing the [osu!(lazer)](/wiki/Client/Release_stream/Lazer) client. |
 | 1 | [osu! Installation/Account Setup/Beatmap Downloads](https://www.youtube.com/watch?v=0V5GwzmMhpU) | [pishifat](https://osu.ppy.sh/users/3178418) explains how to install osu!, create an account, and download new beatmaps. |
 | 2 | [Standard Gameplay/Settings Adjustments](https://www.youtube.com/watch?v=mswLEXK0eDk) | [ztrot](https://osu.ppy.sh/users/6347) goes over the osu! mode, and explains how to adjust gameplay settings. |
 | 3 | [Introduction to osu!mania](https://www.youtube.com/watch?v=UAomychlbic) | [LoliFlan](https://osu.ppy.sh/users/447818) covers the basics of the osu!mania mode, including gameplay, keyboard shortcuts, hit objects, and more. |
@@ -27,7 +27,7 @@ The main series of osu!academy serves as a general introduction to the broad wor
 | 7-3 | [Grids](https://www.youtube.com/watch?v=MhIuPvQjLbU) | [ztrot](https://osu.ppy.sh/users/6347) explains how to adjust the size of the grid in the beatmap editor. |
 | 8 | [Hitsounds](https://www.youtube.com/watch?v=PFEYlQfiJHQ) | [ztrot](https://osu.ppy.sh/users/6347) explains what hitsounds are, and goes over the basics of hitsounding. |
 | 9 | [Modding Part 1](https://www.youtube.com/watch?v=bTGBspoMFVA) | [ztrot](https://osu.ppy.sh/users/6347) covers the basics of modding by explaining the beatmap ranking process and how to get your beatmap modded. |
-| 10 | [Modding Part 2](https://www.youtube.com/watch?v=bTGBspoMFVA) | [ztrot](https://osu.ppy.sh/users/6347) reviews the basics of modding once again, and showcases various tools used in the modding process. |
+| 10 | [Modding Part 2](https://www.youtube.com/watch?v=SFSwmRdNbXM) | [ztrot](https://osu.ppy.sh/users/6347) reviews the basics of modding once again, and showcases various tools used in the modding process. |
 | 11 | [Gameplay Mods and Tips to Improve in Standard](https://www.youtube.com/watch?v=j8fpJKCjTvM) | [ztrot](https://osu.ppy.sh/users/6347) covers available game modifiers, and presents tips on how to improve in the osu! mode. |
 | 12 | [Taiko Mapping Basics](https://www.youtube.com/watch?v=8reEFNk5kQY) | [ztrot](https://osu.ppy.sh/users/6347) covers the basics of creating beatmaps for the osu!taiko mode. |
 | 13 | [Customizing the look of osu! skins](https://www.youtube.com/watch?v=oUvCBsGyTtw) | [ztrot](https://osu.ppy.sh/users/6347) goes over the concept of skinning, and explains how to customise the look of osu!. |

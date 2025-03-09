@@ -1,243 +1,133 @@
----
-no_native_review: true
----
-
-<!-- TODO: This article should use the singular form of "you" (`Du` instead of `Sie`), unless the English version gets rewritten to have no pronouns. Furthermore, there are also some untranslated sentences and grammar mistakes. -->
-
-# Menü
+# Menü des Beatmap-Editors
 
 ## Datei
 
 ![Dateimenü](img/M_File-DE.jpg "Dateimenü")
 
-**Kommandos.**
-
-### Kommandos
-
 | Name | Beschreibung |
 | :-- | :-- |
-| Alle Noten löschen (`Strg` + `N`) | Entfernt alle Hit Objekte der Schwierigkeitsstufe. |
-| Schwierigkeitsstufe öffnen... | **Zum Editieren:** Schnell zwischen den Schwierigkeitsstufen wechseln. **Zur Referenz:** ist wie Zum Editieren, aber funktioniert derzeitnicht. |
-| Speichern (`Strg` + `S`) | Speichert alle Veränderungen (`.osu` und `.osb` Dateien). |
-| Neue Schwierigkeitsstufe erstellen... | Erstellt eine neue Schwierigkeitsstufe ohne platzierte Hit Objekte oder eine Kopie des derzeit ausgewählten Schwierigkeitsstufe. |
-
-### Rückkehrfunktion
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Zum Gespeicherten zurücksetzen (`Strg` + `L`) | Hebt alle Veränderungen auf und kehrt zum zuletzt gespeicherten Zustand zurück. Für kleine Fehler (Hit Objekte) |
-| Zum Gespeicherten zurücksetzen (Komplett) (`Strg` + `Shift` + `L`) | Hebt alle Veränderungen auf und kehrt zum zuletzt gespeicherten Zustand zurück. Für komplizierte Fehler (Timing, Storyboard) |
-
-### Kommandos zur Fehlerbehebung
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Beatmap testen (`F5`) | Test die Beatmap. Current changes will be saved in order to test. |
-| AiMod öffnen (`Strg` + `Shift` + `A`) | AiMod öffnen |
-
-### Kommandos für Beatmap Verpackungen
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Beatmap hochladen ... (`Strg` + `Shift` + `U`) | Ladet die Beatmap hoch. Sie müssen mir Ihrem Account auf der Webseite angemeldet sein, um das Beatmap Forum sehen zu können. |
-| Paket exportieren ... | Exportiert die Beatmap als `.osz`. Die Datei wird zum "Exports" Ordner gesendet und der Ordner wird direkt danach geöffnet. |
-| Map-Paket entpacken | ? |
-| Importieren von ... | **bms/bme:** (nur für osu!mania) Öffnet .bms/.bme Datei, um sie als osu!mania Schwierigkeitsstufe zu importieren. |
-
-### Kommandos für Programmierer
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Songs-Ordner öffnen | Öffnet den Songs-Ordner, welcher sich im osu!/Songs befindet. |
-| `.osu` im Editor öffnen | Öffnet die Schwierigkeitsstufe im Texteditor. |
-| `.osb` im Editor öffnen | Öffnet die Storyboarddatei im Texteditor. |
-
-### Emergency Exit command
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Beenden... (`Esc`) | Beatmap Editor verlassen. Sie werden möglicherweise gefragt, ob Sie speichern wollen. Ignoriert manchmal Veränderungen, die im Design Bereich gemacht wurden. |
+| Alle Noten löschen (`Strg` + `N`) | Entfernt alle Hit-Objekte der Schwierigkeitsstufe. |
+| Schwierigkeitsstufe öffnen ... | **Beim Editieren:** Schneller Wechsel zwischen den Schwierigkeitsstufen. **Zur Referenz:** Legt die gewählte Schwierigkeitsstufe über die (aktuell) geöffnete (nur [osu!mania](/wiki/Game_mode/osu!mania)). |
+| Speichern (`Strg` + `S`) | Speichert die aktuellen Änderungen (Dateiformate [`.osu`](/wiki/Client/File_formats/osu_(file_format)) und [`.osb`](/wiki/Client/File_formats/osb_(file_format))). |
+| Neue Schwierigkeitsstufe erstellen ... | Speichert die aktuellen Änderungen als neue Schwierigkeitsstufe. Die alte Schwierigkeitsstufe bleibt beim erneuten Laden in ihrem zuletzt gespeicherten Zustand erhalten. |
+| Zum Gespeicherten zurücksetzen (`Strg` + `L`) | Hebt alle Änderungen der Schwierigkeitsstufe und des Storyboards bis zum letzten Speicherpunkt auf. |
+| Zum Gespeicherten zurücksetzen (Komplett) (`Strg` + `Shift` + `L`) | Hebt alle Änderungen der Schwierigkeitsstufe und des Storyboards bis zum letzten Speicherpunkt auf und lädt alle Dateien neu (Sprites, Soundsamples etc.). |
+| Beatmap testen (`F5`) | Startet den [Testmodus](/wiki/Client/Beatmap_editor/Test_mode). Aktuelle Änderungen werden für den Test gespeichert. |
+| AiMod öffnen (`Strg` + `Shift` + `A`) | [AiMod](/wiki/Client/Beatmap_editor/AiMod) öffnen. |
+| Beatmap hochladen ... (`Strg` + `Shift` + `U`) | [Lädt](/wiki/Beatmapping/Beatmap_submission) die Beatmap in das Forum [Work In Progress](https://osu.ppy.sh/community/forums/10) hoch. |
+| Paket exportieren ... | Exportiert die Beatmap als [`.osz`-Archiv](/wiki/Client/File_formats/osz_(file_format)) zur manuellen Weitergabe. Der Ordner `Exports` wird geöffnet, in dem die Datei abgelegt wird. |
+| Map-Paket entpacken | Entpackt eine Beatmap im Format `.osz2` in einen temporären Ordner, um die darin enthaltenen Daten während des Moddings zu überschreiben.[^osz2-note] |
+| Importiere von ... | **bms/bme:** Öffnet Dateien im Format `.bms`/`.bme`, um sie als osu!mania-Schwierigkeitsstufe zu importieren. |
+| Songs-Ordner öffnen | Öffnet den Beatmap-Ordner, der die zugehörigen Spieldateien enthält. |
+| `.osu` im Editor öffnen | Öffnet die Datei der aktuellen Schwierigkeitsstufe im Texteditor. |
+| `.osb` im Editor öffnen | Öffnet die [Storyboard-Datei](/wiki/Storyboard) der Beatmap im Texteditor. |
+| Beenden ... (`Esc`) | Verlässt den Beatmap-Editor und fragt, ob kürzliche Änderungen gespeichert werden sollen.[^exit-note] |
 
 ## Bearbeiten
 
 ![Bearbeitungsmenü](img/M_Edit-DE.jpg "Bearbeitungsmenü")
 
-Edit commands. Same as default MS shortcuts.
-
-### Kommando für Rückgängig/Wiederherstellen
-
-Diese Kommandos können in den [Einstellungen](/wiki/Client/Options) geaktiviert werden, um ein Crash während dem Bearbeiten von Marathon Maps zu verhindern.
-
 | Name | Beschreibung |
 | :-- | :-- |
-| Rückängig (`Strg` + `Z`) | Ein Schritt zurück. |
-| Wiederherstellen (`Strg` + `Y`) | Ein Schritt nach vorn. |
-
-### Kommandos fürs Bearbeiten (Hit Objekt zuvor markieren)
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Ausschneiden (`Strg` + `X`) | Entfernt Hit Objekt(e). |
-| Kopieren (`Strg` + `C`) | Kopiert Hit Objekt(e). |
-| Einfügen (`Strg` + `V`) | Fügt Hit Objekt(e) ein. |
-| Löschen (`Entfernen`) | Löscht Hit Objekt(e). |
-
-### Spezielle Kommandos
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Alles auswählen (`Strg` + `A`) | Markiert alle Hit Objekte. |
-| Klonen (`Strg` + `D`) | Kopieren und Einfügen. |
-
-### Kommandos fürs Rotieren
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Auswahl umkehren (`Strg` + `G`) | **Slider:** Slideranfang und Sliderende vertauschen. **Wähle mehrere Objekte aus:** Der Design der Beatmap wird neu ausgerichtet, quasi andersherum. |
-| Horizontal spiegeln (`Strg` + `H`) | Kippt die Hit Objekte(e) von links nach rechts bzw. von rechts nach links (y-Achse ist die Mittelachse). |
-| Vertikal spiegeln (`Strg` + `J`) | Kippt die Hit Objekte(e) von unten nach oben bzw. von oben nach unten (x-Achse ist die Mittelachse). |
-| 90° im Uhrzeigersinn drehen (`Strg` + `>`) | Hit Objekt(e) um 90° nach rechts drehen. |
-| 90° gegen den Uhrzeigersinn drehen (`Strg` + `<`) | Hit Objekt(e) um 90° nach links drehen. |
-| Rotieren ... (`Strg` + `Shift` + `R`) | Leg den Rotationswinkel (+/- 180°) für die Hit Objekte fest. Sie können auch die Richtung (im/gegen Uhrzeigersinn) und Position festlegen. |
-| Skalieren... (`Strg` + `Shift` + `S`) | Veränder den Abstand für die Hit Objekt um ein Vielfaches (0.500x - 1.200x). Sie können die Position festlegen und ob sich die Objekte nur auf einer oder beiden Achsen verschieben werden sollen. |
-
-### Tasten zum Zurücksetzen
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Samples des ausgewählten Objekts zurücksetzen | Entfertn den Hitsound vom ausgewählten Hit Objekt. |
-| Alle Samples zurücksetzen | Entfernt alle festgelegten Hitsounds von den Hit Objekten. |
-| Kombo-Farben zurücksetzen | Setzt alle Kombofarben zurück. |
-| Pausen zurücksetzen | Setzt alle Pausen zurück. Funktioniert nicht bei automatisch platzierten Pausen. |
-
-### Kommandos zum Stubsen
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Stubs zurück (`J`) | Bewegt Hit Objekt(e) um ein Beat zurück im Beat Snap Divisor. |
-| Stubs vrfwärts (`K`) | Bewegt Hit Objekt(e) um ein Beat nach vorne im Beat Snap Divisor. |
+| Rückgängig (`Strg` + `Z`) | Vorherige Bearbeitung rückgängig machen. |
+| Wiederherstellen (`Strg` + `Y`) | Vorherige Bearbeitung wiederherstellen. |
+| Ausschneiden (`Strg` + `X`) | Ausgewählte Objekte ausschneiden. |
+| Kopieren (`Strg` + `C`) | Ausgewählte Objekte in die Zwischenablage kopieren. |
+| Einfügen (`Strg` + `V`) | Objekte aus der Zwischenablage einfügen. |
+| Löschen (`Entfernen`) | Ausgewählte Objekte löschen. |
+| Alles auswählen (`Strg` + `A`) | Alle Hit-Objekte markieren. |
+| Klonen (`Strg` + `D`) | Ausgewählte Objekte kopieren und sie einen [Beat](/wiki/Music_theory/Beat) nach der Auswahl einfügen. |
+| Auswahl umkehren (`Strg` + `G`) | Kehrt die Richtung von Slidern um und ordnet Hit-Objekte zeitlich so neu an, dass das letzte zum ersten wird usw. |
+| Horizontal spiegeln (`Strg` + `H`) | Auswahl an der Y-Achse des Spielfelds spiegeln (links und rechts). |
+| Vertikal spiegeln (`Strg` + `J`) | Auswahl an der X-Achse des Spielfelds spiegeln (oben und unten). |
+| 90° im Uhrzeigersinn drehen (`Strg` + `>`) | Auswahl um 90° nach rechts um die Spielfeldmitte drehen. |
+| 90° gegen den Uhrzeigersinn drehen (`Strg` + `<`) | Auswahl um 90° nach links um die Spielfeldmitte drehen. |
+| Rotieren ... (`Strg` + `Shift` + `R`) | Auswahl um einen festgelegten Winkel um die Spielfeldmitte oder die Mitte der Auswahl rotieren. |
+| Skalieren ... (`Strg` + `Shift` + `S`) | Verändere die Größe der ausgewählten Objekte, indem die Auswahl weiter vom Spielfeld oder der Mitte der Auswahl weg bzw. über eine oder mehrere Achsen bewegt wird. |
+| Samples des ausgewählten Objekts zurücksetzen | Entfernt den [Hitsound](/wiki/Beatmapping/Hitsound) vom ausgewählten Hit-Objekt. |
+| Alle Samples zurücksetzen | Entfernt alle festgelegten Hitsounds von den Hit-Objekten in dieser Schwierigkeitsstufe. |
+| Combo-Farben zurücksetzen | Setzt alle [Combo-Farben](/wiki/Beatmapping/Colourhaxing) in der aktuellen Schwierigkeitsstufe zurück. |
+| Pausen zurücksetzen | Setzt alle [Pausen](/wiki/Beatmap/Break) zurück und platziert diese neben umliegenden Hit-Objekten. |
+| Stups zurück (`J`) | Bewegt die Auswahl abhängig vom [Taktteiler](/wiki/Client/Beatmap_editor/Beat_snap_divisor) um einen Beat zurück. |
+| Stups vorwärts (`K`) | Bewegt die Auswahl abhängig vom Taktteiler um einen Beat nach vorne. |
 
 ## Ansicht
 
-![Ansichtmenü](img/M_View-DE.jpg "Ansichtmenü")
-
-### Kommandos für die Tabs
+![Ansichtsmenü](img/M_View-DE.jpg "Ansichtsmenü")
 
 | Name | Beschreibung |
 | :-- | :-- |
-| Komponieren (`F1`) | Öffnet den Compose Tab. |
-| Design (`F2`) | Öffnet den Design Tab. |
-| Timing (`F3`) | Öffnet den Timing Tab. |
-
-### Kommandos für Einstellungen
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Map-Einstellungen ... (`F4`) | Öffnet das Song Setup Fenster. |
-| Timing-Einstellungen ... (`F6`) | Öffnet das Timing Setup Fenster. |
-
-### Spezielle Kommandos
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Lautstärke | Anpassen von 2 Lautstärken (Musik / Sample). |
-| Gitter-Dichte | Gittergröße festlegen. 1 (sehr grob)/2/3/4 (sehr fein). |
-| Video zeigen | Zeigt das Video an. Normalerweise deaktiviert, da es zu Verwirrungen kommen kann. |
-| Sample-Name anzeigen | ? |
-| Snaking Slider | Slider von der Startposition aus aufklappen lassen, anstatt sie von Anfang an komplett anzuzeigen. |
-| Hit Animationen | Die Animationen passen sich dem vom Gameplay an. |
-| Follow Points | Follow Points zwischen den Hit Objekten innerhalb eines Combo anzeigen lassen. |
-| Stapeln | ? |
-| "Rückgängig" deaktivieren | Beim Editieren von sehr langen Marathon-Editoraps kann das Speichern aller vorgenommenen Änderungen für die Rückgängig-/Wiederholen-Funktion die Perfomance beeinträchtigen. |
+| Komponieren (`F1`) | Öffnet den Tab [`Compose`](/wiki/Client/Beatmap_editor/Compose). |
+| Design (`F2`) | Öffnet den Tab [`Design`](/wiki/Client/Beatmap_editor/Design). |
+| Timing (`F3`) | Öffnet den Tab [`Timing`](/wiki/Client/Beatmap_editor/Timing). |
+| Map-Einstellungen ... (`F4`) | Öffnet den Dialog [`Song Setup`](/wiki/Client/Beatmap_editor/Song_setup). |
+| Timing-Einstellungen ... (`F6`) | Öffnet den Dialog [`Timing and Control Points`](/wiki/Client/Beatmap_editor/Timing). |
+| Lautstärke | Anpassen der Lautstärke von Musik oder Samples. |
+| Gitter-Dichte (`G`) | Legt die [Gittergröße](/wiki/Beatmapping/Grid_snapping) im Spielfeld fest, das für die [Platzierung](/wiki/Beatmapping/Snapping) von Objekten wichtig ist. |
+| Video zeigen | Stellt die Sichtbarkeit des Hintergrundvideos und des Storyboards ein. |
+| Dim Background | Durch Abdunkeln des Hintergrunds werden die Hit-Objekte im [Testmodus](/wiki/Client/Beatmap_editor/Test_mode) besser sichtbar. |
+| Sample-Name anzeigen | Zeigt den [Keysound](/wiki/Beatmapping/Hitsound#keysound), der zu den Hit-Objekten in osu!mania-Schwierigkeitsstufen hinzugefügt wurde. |
+| Snaking Slider | Animiert die Slider, wie sie im Spiel aussehen. |
+| Hit Animationen | Animiert die Hit-Circles, wie sie während des Spiels angezeigt werden. |
+| Follow Points | Zeigt Follow Points zwischen den Hit-Objekten wie im Spiel an. |
+| Stapeln | Stapelt die übereinander liegenden Hit-Circles wie im Spiel.[^stacking-note] |
 
 ## Komponieren
 
-![Kompositionsmenü](img/M_Compose-DE.jpg "Kompositionsmenü")
-
 *Hauptseite: [Komposition](/wiki/Client/Beatmap_editor/Compose)*
 
-### Regler
+![Kompositionsmenü](img/M_Compose-DE.jpg "Kompositionsmenü")
 
 | Name | Beschreibung |
 | :-- | :-- |
-| Taktteiler | [Beat Snap Divisor](/wiki/Client/Beatmap_editor/Beat_Snap_Divisor) |
+| Taktteiler | Passt die Feinheit des [Taktteilers](/wiki/Client/Beatmap_editor/Beat_snap_divisor) an, wobei mehr oder weniger Striche auf der [Zeitleiste](/wiki/Client/Beatmap_editor/Timelines) angezeigt werden. |
 | Abspieltempo | Gibt an, wie schnell das Lied abgespielt wird. |
-| Gitter-Ausrichtung (`T`) | ? |
-
-### Spezielle Kommandos
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Polygon-Noten erstellen ... (`Strg` + `Shift` + `D`) | Erstellt einen kreisförmigen Ablauf aus Hit Circles. Sie können den Distance Snap (0.1x - 2.0x) anpassen {Abstand zwischen den Objekten}, Offsetwinkel (0° - 180°) {Rotationswinkel}, Wiederholungen und Puntke (3 - 14/282) {Anzahl an Objekten pro Schleife}. |
-| Slider zu Stream konvertieren... | Beat Snap Divisor: Legt den Taktteiler fest. |
-| Live-Editorapping-Editorodus aktivieren (`Strg` + `Tab`) | osu!/osu!catch/osu!taiko Maps: Benutzen Sie die osu!taikotasten, um Hit Circles/Früchte/osu!taiko Hit Circles zu platzieren, während Sie das Lied im Editor spielen. Die Objekte werden am Standort des Cursors platziert. osu!mania Maps: Benutzen Sie die osu!maniatasten, um Noten während dem Spielen zu platzieren. Wenn Sie die Taste gedrückt halten, wird kein Slider dadurch erstellt. |
-| Sample importieren | [Tastentöne und Sound Sampling.](/wiki/Client/Beatmap_editor/Compose) |
+| Gitter-Ausrichtung (`T`) | Ein- und ausschalten, dass Hit-Objekte am [Raster](/wiki/Beatmapping/Grid_snapping) des Spielfelds ausgerichtet werden. |
+| Polygon-Noten erstellen ... (`Strg` + `Shift` + `D`) | Erstellt anhand des aktiven Taktteilers einen kreisförmigen Fluss aus Hit-Circles. |
+| Slider zu Stream konvertieren ... | Ändert den [Körper](/wiki/Gameplay/Hit_object/Slider/Sliderbody) eines ausgewählten Sliders zu einem Stream aus Hit-Circles. **Nach Objektanzahl:** Verwendung einer bestimmten Anzahl von Hit-Circles. **Nach Distance Snap:** Platziert Objekte nach einem [festgelegtem Abstand](/wiki/Client/Beatmap_editor/Distance_snap). |
+| Live-Mapping-Modus aktivieren (`Strg` + `Tab`) | Platziert [Hit-Circles](/wiki/Gameplay/Hit_object/Hit_circle) in osu! und osu!taiko, [Fruits](/wiki/Gameplay/Hit_object/Fruit) in osu!catch bzw. Noten in osu!mania mit den Tastenbelegungen während der Song im Editor spielt.[^live-mapping-note] |
+| Sample importieren | Öffnet den Dialog [`Sample importieren`](/wiki/Client/Beatmap_editor/Compose#sample-import) für osu!mania-Schwierigkeitsstufen. |
 
 ## Design
 
-![Designmenü](img/M_Design-DE.jpg "Designmenü")
+*Hauptseite: [Design](/wiki/Client/Beatmap_editor/Design)*
 
-*Main page: [Design](/wiki/Client/Beatmap_editor/Design)*
+![Designmenü](img/M_Design-DE.jpg "Designmenü")
 
 | Name | Beschreibung |
 | :-- | :-- |
-| Alle Objekte verschieben | Bewegen Sie *alle* Objekte um #ms. Ganz nützlich, wenn Sie .mp3 Datei austauschen oder das Offset geändert haben. |
+| Alle Objekte verschieben | Verschiebt *alle* Storyboard-[Befehle](/wiki/Storyboard/Scripting/Commands) um einen Zeitwert in Millisekunden. |
 
 ## Timing
 
+*Hauptseite: [Timing](/wiki/Client/Beatmap_editor/Timing)*
+
 ![Timingmenü](img/M_Timing-DE.jpg "Timingmenü")
 
-*Main page: [Timing](/wiki/Client/Beatmap_editor/Timing)*
-
-### Kommandos fürs Metronom
-
 | Name | Beschreibung |
 | :-- | :-- |
-| Rhythmus | Walzer (3/4) oder Standard (4/4) Timing. Für exotisches Timing, benutzen Sie das Timing Setup. |
-| Metronom | Aktiveren/Deaktivieren Sie die "tic, tic , (tic) , toc" Töne vom Metronom. |
-
-### Kommandos zum Markieren
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Sektion hinzufügen (`Strg` + `P`) | Erstellt eine neue rote Timing Sektion am derzeitigen Standort. |
-| Erbende Sektion hinzufügen (`Strg` + `Shift` + `P`) | Erstellt eine neue grüne Timing Sektion am derzeitigen Standort. |
-| Aktuelle Sektion zurücksetzen | ? |
-| Sektion entfernen (`Strg` + `I`) | Entfernt die Timing Sektion, in der man gerade befindet. |
-| Sektion neu ausrichten | Richtet die Timing Sektion neu aus. |
-
-### Timing Einstellungen
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Timing Einstellungen... (`F6`) | [Timing Setup.](/wiki/Client/Beatmap_editor/Timing) |
-
-### Spezielle Kommandos
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Alle Noten neu ausrichten | Richtet alle Hit Objekte zu ihren jeweiligen Sektion um. |
-| Alle Noten verschieben ... | Bewege alle Noten um #ms |
-| Sliderlängen neu berechnen | Berechnet die Länge der Slider neu (am besten zu benutzen, wenn BPM/ Slidergeschwindigkeit/Slidergeschwindigkeitsmultiplikator geändert wurde). |
-| Alle Sektionen löschen | Löscht alle Timing Sektionen. |
-
-### Kommando fürs Vorschau
-
-| Name | Beschreibung |
-| :-- | :-- |
-| Aktuelle Position als Vorschaupunkt festlegen | Setzt eine gelbe Markierung (das Lied fängt dann im Songauswahl an der Stelle an zu spielen). |
+| Rhythmus | Wahl zwischen den [Taktarten](/wiki/Music_theory/Time_signature) Walzer (3/4) oder Standard (4/4) für den aktuellen Timing-Punkt. Für andere Taktarten muss das [`Timing Setup`](/wiki/Client/Beatmap_editor/Timing) verwendet werden. |
+| Metronom | Aktiviert oder deaktiviert die Tickgeräusche des [Metronoms](/wiki/Client/Beatmap_editor/Timing#metronome) im Tab `Timing`. |
+| Sektion hinzufügen (`Strg` + `P`) | Erstellt eine neue [nicht vererbte (rote) Timing-Sektion](/wiki/Client/Beatmap_editor/Timing#uninherited-timing-point). |
+| Erbende Sektion hinzufügen (`Strg` + `Shift` + `P`) | Erstellt eine neue [vererbte (grüne) Timing-Sektion](/wiki/Client/Beatmap_editor/Timing#inherited-timing-point). |
+| Aktuelle Sektion zurücksetzen | Setzt die [BPM](/wiki/Music_theory/Tempo) und das [Offset](/wiki/Offset) der aktuellen nicht vererbten Timing-Sektion zurück, [damit diese neu getimt werden kann](/wiki/Beatmapping/Timing). Wird die Schwierigkeitsstufe gespeichert, gehen die damit zusammenhängenden Sektionen ohne Bearbeitung verloren. |
+| Sektion entfernen (`Strg` + `I`) | Entfernt die Timing-Sektion, in der man sich gerade befindet (sowohl vererbte als auch nicht vererbte). |
+| Sektion neu ausrichten | [Richtet](/wiki/Beatmapping/Snapping) alle Hit-Objekte in der aktuellen Timing-Sektion anhand des aktiven Taktteilers neu aus. |
+| Timing-Einstellungen... (`F6`) | Öffnet den Dialog [`Timing and Control Points`](/wiki/Client/Beatmap_editor/Timing). |
+| Alle Noten neu ausrichten | Richtet alle Hit-Objekte in der aktuellen Schwierigkeitsstufe nach dem aktiven Taktteiler aus. |
+| Alle Noten verschieben ... | Bewegt alle Hit-Objekte um einen Zeitwert in Millisekunden. |
+| Sliderlängen neu berechnen | Setzt die [Sliderenden](/wiki/Gameplay/Hit_object/Slider/Slidertail) automatisch zum nächstgelegenen Strich auf der Zeitleiste,[^recalculate-lengths-note] wobei **die Slider möglicherweise gekürzt werden** und deshalb manuell überprüft werden müssen. |
+| Alle Sektionen löschen | Löscht alle vererbten und nicht vererbten Timing-Sektionen aus der aktuellen Schwierigkeitsstufe. |
+| Aktuelle Position als Vorschaupunkt festlegen | Den aktuellen Zeitstempel als Vorschaupunkt für die Webseite und die [Songauswahl](/wiki/Client/Interface#songauswahl) verwenden. |
 
 ## Web
 
 ![Webmenü](img/M_Web-DE.jpg "Webmenü")
 
-Öffnet Ihren Browser. Leitet Sie hauptsächlich zum Beatmap-Thread (Sie müssen angemeldet sein).
-
 | Name | Beschreibung |
 | :-- | :-- |
-| Informationsseite dieser Beatmap | Öffnet die Informationsseite der Beatmap. Der Link ist `https://osu.ppy.sh/beatmaps/###`, ### ist die BeatmapID (findet man in `.osu`). |
-| Forenbeitrag dieser Beatmap | Öffnet den Beatmap Thread. |
-| Schnellantwort | Erstellen Sie eine Nachricht im Beatmap Thread. |
+| Informationsseite dieser Beatmap | Öffnet die Informationsseite der Beatmap auf der osu!-Webseite. |
+| Forenbeitrag dieser Beatmap | Öffnet den Beatmap-Thread. |
 
 ## Hilfe
 
@@ -245,5 +135,14 @@ Diese Kommandos können in den [Einstellungen](/wiki/Client/Options) geaktiviert
 
 | Name | Beschreibung |
 | :-- | :-- |
-| Ingame-Hilfe anzeigen (`H`) | Öffnet im Editor ein Fenster mit hilfreichen Informationen. |
-| FAQ anzeigen | Sie werden nach [FAQ](/wiki/FAQ) geleitet. |
+| Ingame-Hilfe anzeigen | Öffnet ein Fenster mit Tastenbelegungen und hilfreichen Informationen.[^help-note] |
+| FAQ anzeigen | Öffnet den Artikel [Beatmapping](/wiki/Beatmapping). |
+
+## Anmerkungen
+
+[^osz2-note]: Normale Beatmaps im Format `.osz` unterstützen das nicht.
+[^exit-note]: Im `Design`-Tab gemachte Änderungen werden manchmal *ignoriert*.
+[^stacking-note]: Das Stapelverhalten ist abhängig von der [Stackzuordnung](/wiki/Beatmap/Stack_leniency) der Schwierigkeitsstufe.
+[^live-mapping-note]: osu!, osu!taiko, und osu!catch verwenden die Tastenbelegungen von osu!taiko.
+[^recalculate-lengths-note]: Nützlich, wenn sich die BPM oder die [Slidergeschwindigkeit](/wiki/Gameplay/Hit_object/Slider/Slider_velocity) verändert haben.
+[^help-note]: Diese Funktion wurde entfernt.

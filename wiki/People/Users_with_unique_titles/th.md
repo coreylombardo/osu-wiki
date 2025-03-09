@@ -5,7 +5,7 @@ outdated_since: 9cfb562a5fe6a20f992ba572bdc34366b95c3107
 
 # ผู้คนที่มี Titles ที่แตกต่าง
 
-Titles ของผู้เล่นนั้นปกติจะเกี่ยวกับ [user groups](/wiki/People/The_Team#กลุ่มผู้ใช้งาน) แต่ผู้เล่นข้างล่างนี้ ได้รับ titles มากจากเหตุผลอื่นๆ ส่วนใหญ่นั้นจะได้มาจาก การมีส่วนร่วม หรือจากความสำเร็จต่างๆ ส่วนที่เหลือจะเป็น titles ที่ตลกที่แสดงถึงอดีตของ osu!
+Titles ของผู้เล่นนั้นปกติจะเกี่ยวกับ [user groups](/wiki/People/osu!_team#กลุ่มผู้ใช้งาน) แต่ผู้เล่นข้างล่างนี้ ได้รับ titles มากจากเหตุผลอื่นๆ ส่วนใหญ่นั้นจะได้มาจาก การมีส่วนร่วม หรือจากความสำเร็จต่างๆ ส่วนที่เหลือจะเป็น titles ที่ตลกที่แสดงถึงอดีตของ osu!
 
 ## ตามหมวดหมู่ พร้อมเหตุผล
 
@@ -93,7 +93,7 @@ Titles ของผู้เล่นนั้นปกติจะเกี่�
 
 ### Nominators ชั้นยอด
 
-ตั้งแต่ 2020 [Beatmap Nominators](/wiki/People/The_Team/Beatmap_Nominators) และ [Nomination Assessment Team](/wiki/People/The_Team/Nomination_Assessment_Team) ที่ช่วยเหลือในเรื่องการ Rank บีทแมพอย่างสม่ำเสมอ จะได้ title **Elite Nominator** Title นี้จะถูกให้ทุกต้นปีสำหรับการช่วยเหลือที่ทำไปในปีก่อนหน้า และจะถูกนำออกเมื่อผู้เล่นออกจากทีม
+ตั้งแต่ 2020 [Beatmap Nominators](/wiki/People/Beatmap_Nominators) และ [Nomination Assessment Team](/wiki/People/Nomination_Assessment_Team) ที่ช่วยเหลือในเรื่องการ Rank บีทแมพอย่างสม่ำเสมอ จะได้ title **Elite Nominator** Title นี้จะถูกให้ทุกต้นปีสำหรับการช่วยเหลือที่ทำไปในปีก่อนหน้า และจะถูกนำออกเมื่อผู้เล่นออกจากทีม
 
 - ::{ flag=CA }:: [Agatsu](https://osu.ppy.sh/users/5579871)
 - ::{ flag=US }:: [eiri-](https://osu.ppy.sh/users/3388410)
@@ -125,7 +125,7 @@ Titles ของผู้เล่นนั้นปกติจะเกี่�
 
 ### Featured Artists
 
-[Featured Artists](/wiki/Featured_Artists) ที่มีแอคเค้าท์ osu! จะได้รับ title **Featured Artist** เพื่อแสดงผลงานของพวกเขา
+[Featured Artists](/wiki/People/Featured_Artists) ที่มีแอคเค้าท์ osu! จะได้รับ title **Featured Artist** เพื่อแสดงผลงานของพวกเขา
 
 ::{ flag=NO }:: [cYsmix](https://osu.ppy.sh/users/272870) และ ::{ flag=AU }:: [nekodex](https://osu.ppy.sh/users/102) จะมี Title **osu!musician** เพราะว่า การช่วยเหลือในตอนต้นด้าน Sound design และ Theme Song ของ osu! และ ::{ flag=US }:: [BilliumMoto](https://osu.ppy.sh/users/3862471) เลือกที่จะเก็บ title **osu!mixer** ตอนที่ได้เป็น Featured Artists
 
@@ -192,7 +192,9 @@ Storyboarders ที่แสดงความสามารถในการ
 | ผู้เล่น | Title | ความสำเร็จ |
 | :-- | :-- | :-- |
 | ::{ flag=NO }:: [-GN](https://osu.ppy.sh/users/895581) | Champion Above Champions | ได้ NoMod FC บน [Shotgun Symphony+ [Impossibly Intense]](https://osu.ppy.sh/beatmapsets/7671#osu/32570) เป็นคนแรก |
+| ::{ flag=US }:: [EEEEEEEEEEEEEEE](https://osu.ppy.sh/users/2927048) | osu!completionist | เล่น แมป osu! ทุกแมปใน 15 มีนาคม 2566 |
 | ::{ flag=AU }:: [Jaye](https://osu.ppy.sh/users/4841352) | Drum Decimator | ได้ FC บนแมป osu! taiko ที่ Ranked่ ทุกอันสำเร็จใน 3 พฤษจิกายน 2562 |
+| ::{ flag=PL }:: [Przegrany](https://osu.ppy.sh/users/7635621) | osu!completionist | เล่น แมป osu! ทุกแมปใน 11 สิงหาคม 2564 |
 | ::{ flag=NL }:: [Shirotora_old](https://osu.ppy.sh/users/11820) | Bested the Reaper's Game | *ไม่ได้บันทึกไว้* |
 | ::{ flag=US }:: [xasuma](https://osu.ppy.sh/users/3172980) | The First Completionist | เล่น แมป osu! ทุกแมปใน 27 เมษายน 2562 |
 | ::{ flag=DE }:: [Zetera](https://osu.ppy.sh/users/587737) | Medal Hunter | ชนะ [The Hunt for the Girl in the Forest](https://osu.ppy.sh/community/forums/topics/662279) |
@@ -206,6 +208,8 @@ Storyboarders ที่แสดงความสามารถในการ
 | ::{ flag=US }:: [Charles445](https://osu.ppy.sh/users/85000) | osu! Paragon |
 | ::{ flag=US }:: [ChillierPear](https://osu.ppy.sh/users/9501251) | World Cup Organizer |
 | ::{ flag=US }:: [Daru](https://osu.ppy.sh/users/32480) | osu!painter |
+| ::{ flag=ES }:: [Deif](https://osu.ppy.sh/users/318565) | osu!catch Paragon |
+| ::{ flag=TN }:: [Hivie](https://osu.ppy.sh/users/14102976) | osu!taiko Paragon |
 | ::{ flag=GB }:: [JBHyperion](https://osu.ppy.sh/users/4879508) | osu!catch Paragon |
 | ::{ flag=BR }:: [LeoFLT](https://osu.ppy.sh/users/3668779) | World Cup Organizer |
 | ::{ flag=US }:: [LuigiHann](https://osu.ppy.sh/users/1079) | Resident Skinner |
@@ -223,8 +227,10 @@ Storyboarders ที่แสดงความสามารถในการ
 | :-- | :-- |
 | ::{ flag=SH }:: [BanchoBot](https://osu.ppy.sh/users/3) | w00t p00t |
 | ::{ flag=US }:: [Derekku](https://osu.ppy.sh/users/91341) | COOL DUDE |
+| ::{ flag=AU }:: [Ephemeral](https://osu.ppy.sh/users/102335) | Inland Empire |
 | ::{ flag=DE }:: [Loctav](https://osu.ppy.sh/users/71366) | Popcorn Fairy |
 | ::{ flag=AU }:: [phill_old](https://osu.ppy.sh/users/53) | ¿ |
+| ::{ flag=US }:: [Toy](https://osu.ppy.sh/users/2757689) | Former osu! Champion: 2019 / Grilled Dodongo |
 | ::{ flag=HM }:: [Zallius](https://osu.ppy.sh/users/55) | Boats |
 
 ## เรียงตามชื่อ

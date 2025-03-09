@@ -1,5 +1,7 @@
 ---
 no_native_review: true
+outdated_since: 218cb353a5cb04575555aa5d0c33fd5e5de209d7
+outdated_translation: true
 ---
 
 # Pravidla
@@ -22,11 +24,11 @@ Tato pravidla jsou základem, ze kterého pomáháme udržovat osu! komunitu zá
 2. **Nechte moderátory řešit problémy v chatu.** Na věci je můžete upozornit pomocí [příkazu `!report`](/wiki/Reporting_bad_behaviour) a oni se postarají o zbytek.
 3. **Pokud někdo dostane time out umlčení nebo omezí, nechte ho být a nezačněte o něm mluvit.** Pokud je někdo omezen, jeho případ se týká pouze jeho a správy hry – absolutně nikoho jiného!
 4. **Podporujte fair play a nevěnujte pozornost podvodníkům nebo jiným toxickým uživatelům.** Tito lidé bohužel existují a věnování jim pozornost je může povzbudit, aby pokračovali, nebo vyprovokovat ostatní.. Nahlaste je chatovacím příkazem `!report` nebo tlačítky na jejich profilové stránce a pokračujte.
-5. **Udržujte chat čistý a vhodný pro komunitu všech věkových kategorií, vyhýbejte se tématům NSFW, kde je to možné.** Věci NSFW opravdu nejsou vhodné pro komunitu všech věkových kategorií. Dělejte si, co chcete, v soukromých zprávách (v rozumných mezích), ale udržujte veřejné kanály čisté pro dobro všech. 
+5. **Udržujte chat čistý a vhodný pro komunitu všech věkových kategorií, vyhýbejte se tématům NSFW, kde je to možné.** Věci NSFW opravdu nejsou vhodné pro komunitu všech věkových kategorií. Dělejte si, co chcete, v soukromých zprávách (v rozumných mezích), ale udržujte veřejné kanály čisté pro dobro všech.
 6. **Dávejte si pozor na to, co sdílíte s ostatními, zvláště pokud je obsah potenciálně znepokojivý nebo velmi názorný.** Pokud si musíte dvakrát rozmyslet, zda je něco vhodného odkazovat, pravděpodobně to není v pořádku. Vyhněte se věcem s rychlými, stroboskopickými světly, krví, obrázky zneužívání nebo jiným grafickým materiálem.
 7. **Ponechejte si odkazy na relevantní a legální webové stránky.** Bootlegové streamovací webové stránky (oficiálně licencované jako Animelab a Crunchyroll jsou v pořádku) a cokoli souvisejícího s „warez“ nebo pirátským softwarem jakéhokoli druhu není v pořádku a my ne nechceme je v našem chatu. Inzerce odkazů Twitch na jiné videohry jsou v pořádku, ale POUZE v `#videogames`.
 8. **Neinzerujte žádné chatovací servery třetích stran, včetně serverů/skupin Discord, Teamspeak nebo Skype.** osu! chat je o osu! především a ne o sdílení odkazů na vaše osobní servery. Udělejte to přes PM, pokud nezbytně musíte.
-9. **Pokud se účastníte diskuse, musíte v kanálech pro konkrétní jazyky mluvit dominantním jazykem (angličtina pro „#english“, thajština pro „#thai“ atd.).** Pokud jazyk kanálu není výslovně uveden, je to vždy angličtina. Kanály `#lobby` a `#help` lze na rozdíl od jiných kanálů používat s jakýmkoli jazykem. *Členové [moderačního štábu](/wiki/People/The_Team/Global_Moderation_Team) nemusí při své práci dodržovat toto pravidlo.*
+9. **Pokud se účastníte diskuse, musíte v kanálech pro konkrétní jazyky mluvit dominantním jazykem (angličtina pro „#english“, thajština pro „#thai“ atd.).** Pokud jazyk kanálu není výslovně uveden, je to vždy angličtina. Kanály `#lobby` a `#help` lze na rozdíl od jiných kanálů používat s jakýmkoli jazykem. *Členové [moderačního štábu](/wiki/People/Global_Moderation_Team) nemusí při své práci dodržovat toto pravidlo.*
 
 ## Pravidla pro celé fórum
 
@@ -40,9 +42,9 @@ Tato pravidla jsou základem, ze kterého pomáháme udržovat osu! komunitu zá
 
 ## Pravidla odesílání beatmap
 
-*Poznámka: Tato pravidla se vztahují na **všechny odeslané mapy**, nejen hodnocené. Podrobnější pravidla týkající se hodnocených beatmap naleznete v [Kritérii hodnocení](/wiki/Ranking_Criteria).*
+*Poznámka: Tato pravidla se vztahují na **všechny odeslané mapy**, nejen hodnocené. Podrobnější pravidla týkající se hodnocených beatmap naleznete v [Kritérii hodnocení](/wiki/Ranking_criteria).*
 
-Tato pravidla platí striktně pro beatmapy odeslané prostřednictvím herního [Beatmap Submission System](/wiki/Submission). Tato vlákna/diskuze jsou vytvářeny prostřednictvím osu! klienta, když je beatmap odeslán prostřednictvím [editoru](/wiki/Client/Beatmap_editor).
+Tato pravidla platí striktně pro beatmapy odeslané prostřednictvím herního [Beatmap Submission System](/wiki/Beatmapping/Beatmap_submission). Tato vlákna/diskuze jsou vytvářeny prostřednictvím osu! klienta, když je beatmap odeslán prostřednictvím [editoru](/wiki/Client/Beatmap_editor).
 
 1. **Ujistěte se, že máte oprávnění používat jakýkoli obsah obsažený ve vaší beatmapě.** To zahrnuje písničky, videa, hity, grafiku a další obsah, který není vaší vlastní tvorbou. Pokud si nejste jisti, kde najít obsah, který je zdarma k použití, prohlédněte si naši rostoucí knihovnu [Vybraní umělci](https://osu.ppy.sh/beatmaps/artists) pro hudbu se 100% licencí pro použití v osu! a [Pokyny k používání obsahu](Content_Usage_Guidelines) pro další informace.
 2. **Držte se tématu v [diskuze o beatmapě](/wiki/Beatmap_discussion).** Tato vlákna/diskuze se týkají příslušné beatmapy a ničeho jiného. Pokud máte problém s něčím, co přímo nesouvisí s beatmapou, napište to do příslušného fóra.
@@ -55,14 +57,14 @@ Pokud se ocitnete na špatném konci pravidel naší komunity, stanou se špatn�
 
 Tyto špatné věci mohou zahrnovat (*ale nejsou omezeny na*):
 
-- Odstranění vaší schopnosti chatovat ve hře po určitou dobu (známé jako [silence](/wiki/Silence)).
+- Odstranění vaší schopnosti chatovat ve hře po určitou dobu (známé jako [silence](/wiki/Help_centre/Silences)).
 - Odstranění veškerého obsahu porušujícího autorská práva z vaší uživatelské stránky, profilu nebo nahraných beatmap.
 - Ztráta oprávnění upravovat nebo měnit podrobnosti o vaší uživatelské stránce nebo profilu.
 - Ztráta oprávnění hrát nebo se kvalifikovat v oficiálně pořádaných turnajích.
 
-[Silences](/wiki/Silence) a další porušení se **automaticky** prodlužují téměř exponenciálně s každým porušením. Moderátoři nekontrolují dobu, po kterou jste umlčeni za přestupek – recidivisté se ocitnou mimo hru na stále delší dobu.
+[Silences](/wiki/Help_centre/Silences) a další porušení se **automaticky** prodlužují téměř exponenciálně s každým porušením. Moderátoři nekontrolují dobu, po kterou jste umlčeni za přestupek – recidivisté se ocitnou mimo hru na stále delší dobu.
 
-Některé trestné činy mají minimální trvání (obvykle 42 hodin nebo více), pokud jsou zvláště závažné, ačkoli jsou téměř výhradně vyhrazeny pro závažná porušení, jako je sdílení grafického obsahu nebo nelítostné obtěžování ostatních uživatelů.
+Některé trestné činy mají minimální trvání (obvykle 43 hodin nebo více), pokud jsou zvláště závažné, ačkoli jsou téměř výhradně vyhrazeny pro závažná porušení, jako je sdílení grafického obsahu nebo nelítostné obtěžování ostatních uživatelů.
 
 Pokud po několika porušeních budete nadále porušovat pravidla, váš účet může být [trvale a neodvolatelně omezen](/wiki/Help_centre/Account_restrictions).
 

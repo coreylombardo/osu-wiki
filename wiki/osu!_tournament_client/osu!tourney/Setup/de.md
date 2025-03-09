@@ -1,16 +1,17 @@
 # Einrichtung von osu!tourney
 
 *Siehe auch: [osu!-Turnier-Client](/wiki/osu!_tournament_client)*\
-*Tipp: Ein aktives [Supporter-Tag](/wiki/osu!supporter) ist aktuell erforderlich, um den osu!tourney-Client benutzen zu können.*
+*Anmerkung: Aktuell ist ein aktives [osu!supporter-Tag](/wiki/osu!supporter) erforderlich, um den osu!tourney-Client benutzen zu können.*
 
 Es wird empfohlen, eine **frische osu!-Installation** zu verwenden. Der Grund dafür ist, dass die Songdatenbank beschädigt werden könnte. Du kannst mehrere osu!-Installationen haben, aber bewahre sie in getrennten Ordnern auf.
+
 Kopiere dafür die Datei `osu!.exe` in einen leeren Ordner und führe sie aus. Eine frische osu!-Installation wird erstellt. Dies ist die einzige Installation, die von nun an verändert werden muss.
 
 Öffne osu! und logge dich ein, wobei die Checkboxen `Benutzername speichern` und `Passwort speichern` gesetzt sein müssen.
 
 Schließe osu! und erstelle die Datei `tournament.cfg` im Installationsverzeichnis. Starte osu! erneut und der osu!tourney-Client sollte sich öffnen.
 
-Füge Songs aus dem Mappool vor dem Starten des Clients zum Ordner `/Songs/`  hinzu. Jede eingereichte Beatmap, die der Client nicht hat, wird automatisch heruntergeladen.
+Füge Songs aus dem Mappool vor dem Starten des Clients zum Ordner `Songs` hinzu. Jede eingereichte Beatmap, die der Client nicht hat, wird automatisch heruntergeladen.
 
 Beim Schließen des Clients wird die Datei `tournament.cfg` mit den folgenden Angaben gefüllt:
 
@@ -21,10 +22,10 @@ acronym = OWC
 
 Verändere die Datei `tournament.cfg` nicht, während osu! läuft. Schließe osu! und editiere oder füge die gewünschten Optionen zu den oberen Zeilen hinzu:
 
-- `TeamSize`: Die Anzahl der Spieler pro Team. Der Client wird sich mit 1 bis 8 Fenstern pro Team öffnen, abhängig von diesem Wert. Der maximale Wert beträgt 8.
+- `TeamSize`: Die Anzahl der Spieler pro Team.
 - `ClientNameSize`: Die Größe der Spielernamen.
 - `privateserver`: Lasse dies unberührt.
-- `acronym`: Eine Abkürzung für das Turnier. Dies hat Auswirkungen auf die erforderliche Namensgebung für die Turnierräume, weitere Informationen findest du im [Ratgeber für den Mehrspielerbetrieb](/wiki/osu!tourney/Multiplayer_usage).
+- `acronym`: Eine Abkürzung für das Turnier. Dies hat Auswirkungen auf die erforderliche Namensgebung für die Turnierräume, weitere Informationen findest du im [Ratgeber für den Mehrspielerbetrieb](/wiki/osu!_tournament_client/osu!tourney/Multiplayer_usage).
 - `BufferTimeoutTime`: Die Zeit, die der Client auf einen Spieler wartet, bevor er das Gameplay ohne ihn fortführt.
   - Es wird nicht empfohlen dies zu ändern.
 - `BufferTotalTime`: Die Zeit, die der Client puffert, um die Häufigkeit der Pausen zu verringern, in denen auf den Puffer gewartet wird. Das erzeugt eine Verzögerung zwischen dem Client und den Spielern.

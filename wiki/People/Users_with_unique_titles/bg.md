@@ -6,7 +6,7 @@ no_native_review: true
 
 # Потребители със специални титли
 
-Потребителските титли обикновено са свързани с [потребителски групи](/wiki/People/The_Team#потребителски-групи), но долу изброените потребители са получили собствени титли заради определени причини. Повечето титли са награди за принос или постижение, оставени като спомен от забележително събитие или част от забавната история на osu!.
+Потребителските титли обикновено са свързани с [потребителски групи](/wiki/People/osu!_team#потребителски-групи), но долу изброените потребители са получили собствени титли заради определени причини. Повечето титли са награди за принос или постижение, оставени като спомен от забележително събитие или част от забавната история на osu!.
 
 ## По категория, с причина
 
@@ -96,7 +96,7 @@ no_native_review: true
 
 ### Елитни номинатори
 
-От 2020, активно участващите членове от [бийтмап номинатори](/wiki/People/The_Team/Beatmap_Nominators) и [екип оценяващ номинатори](/wiki/People/The_Team/Nomination_Assessment_Team) в поддържане на системата за класиране, се награждават с титла **Elite Nominator**. Тази титла се получава в началото на всяка година за приноса през изминалата и ще бъде загубена ако потребителят напусне отбора.
+От 2020, активно участващите членове от [бийтмап номинатори](/wiki/People/Beatmap_Nominators) и [екип оценяващ номинатори](/wiki/People/Nomination_Assessment_Team) в поддържане на системата за класиране, се награждават с титла **Elite Nominator**. Тази титла се получава в началото на всяка година за приноса през изминалата и ще бъде загубена ако потребителят напусне отбора.
 
 - ::{ flag=CA }:: [Agatsu](https://osu.ppy.sh/users/5579871)
 - ::{ flag=US }:: [eiri-](https://osu.ppy.sh/users/3388410)¹
@@ -132,7 +132,7 @@ no_native_review: true
 
 ### Представени автори
 
-[Представените автори](/wiki/Featured_Artists) с osu! профил получават титла **Featured Artist** показваща тяхната намеса.
+[Представените автори](/wiki/People/Featured_Artists) с osu! профил получават титла **Featured Artist** показваща тяхната намеса.
 
 ::{ flag=NO }:: [cYsmix](https://osu.ppy.sh/users/272870) и ::{ flag=AU }:: [nekodex](https://osu.ppy.sh/users/102) получават титла **osu!musician** за приносите от началото с дизайн на звуковите ефекти в играта osu! и официалните облици, а ::{ flag=US }:: [BilliumMoto](https://osu.ppy.sh/users/3862471) предпочете да задържи титлата **osu!mixer** (която беше повишена към osu!mixer II) след като стана представен автор.
 
@@ -201,7 +201,9 @@ no_native_review: true
 | Потребител | Титла | Постижение |
 | :-- | :-- | :-- |
 | ::{ flag=NO }:: [-GN](https://osu.ppy.sh/users/895581) | Champion Above Champions | Отбеляза първият резултат без мод с макс комбо на [Shotgun Symphony+ [Impossibly Intense]](https://osu.ppy.sh/beatmapsets/7671#osu/32570) |
+| ::{ flag=US }:: [EEEEEEEEEEEEEEE](https://osu.ppy.sh/users/2927048) | osu!completionist | Изигра всички класирани osu! бийтмапове към 15 март 2023 |
 | ::{ flag=AU }:: [Jaye](https://osu.ppy.sh/users/4841352) | Drum Decimator | Отбеляза макс комбо на всички класирани osu!taiko бийтмапове към 3 ноември 2019 |
+| ::{ flag=PL }:: [Przegrany](https://osu.ppy.sh/users/7635621) | osu!completionist | Изигра всички класирани osu! бийтмапове към 11 август 2021 |
 | ::{ flag=NL }:: [Shirotora_old](https://osu.ppy.sh/users/11820) | Bested the Reaper's Game | *Не е документирано* <!-- TODO: a reference to TWEWY's 104 building, because he got to rank #104 in a certain amt of time.. need to investigate further --> |
 | ::{ flag=US }:: [xasuma](https://osu.ppy.sh/users/3172980) | The First Completionist | Изигра всички класирани osu! бийтмапове към 27 април 2019 |
 | ::{ flag=DE }:: [Zetera](https://osu.ppy.sh/users/587737) | Medal Hunter | Спечели [The Hunt for the Girl in the Forest](https://osu.ppy.sh/community/forums/topics/662279) |
@@ -217,6 +219,7 @@ no_native_review: true
 | ::{ flag=US }:: [Charles445](https://osu.ppy.sh/users/85000) | osu! Paragon |
 | ::{ flag=US }:: [ChillierPear](https://osu.ppy.sh/users/9501251) | World Cup Organizer |
 | ::{ flag=US }:: [Daru](https://osu.ppy.sh/users/32480) | osu!painter <!-- maria and yuzu and a bunch of artwork for old site --> |
+| ::{ flag=ES }:: [Deif](https://osu.ppy.sh/users/318565) | osu!catch Paragon |
 | ::{ flag=GB }:: [JBHyperion](https://osu.ppy.sh/users/4879508) | osu!catch Paragon |
 | ::{ flag=BR }:: [LeoFLT](https://osu.ppy.sh/users/3668779) | World Cup Organizer |
 | ::{ flag=US }:: [LuigiHann](https://osu.ppy.sh/users/1079) | Resident Skinner |
@@ -235,8 +238,9 @@ no_native_review: true
 | Потребител | Титла |
 | :-- | :-- |
 | ::{ flag=SH }:: [BanchoBot](https://osu.ppy.sh/users/3) | w00t p00t |
-| ::{ flag=US }:: [Derekku](https://osu.ppy.sh/users/91341) | COOL DUDE <!-- old forum meme --> |
-| ::{ flag=DE }:: [Loctav](https://osu.ppy.sh/users/71366) | Popcorn Fairy <!-- movie threater pictures in staff chats, or something --> |
+| ::{ flag=US }:: [Derekku](https://osu.ppy.sh/users/91341) | COOL DUDE |
+| ::{ flag=AU }:: [Ephemeral](https://osu.ppy.sh/users/102335) | Inland Empire |
+| ::{ flag=DE }:: [Loctav](https://osu.ppy.sh/users/71366) | Popcorn Fairy |
 | ::{ flag=AU }:: [phill_old](https://osu.ppy.sh/users/53) | ¿ |
 | ::{ flag=HM }:: [Zallius](https://osu.ppy.sh/users/55) | Boats |
 

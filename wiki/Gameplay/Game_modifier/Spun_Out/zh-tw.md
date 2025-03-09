@@ -8,13 +8,15 @@ tags:
   - game modifier
   - 遊戲 Mod
 no_native_review: true
+outdated_translation: true
+outdated_since: 379bac8124180854d6216ee745b2c9b542350824
 ---
 
 # Spun Out (Mod)
 
 ![SO Mod 圖示](/wiki/shared/mods/SO.png "Spun Out (SO) Mod 圖示")
 
-*若要查看 Mod 列表，請見：[遊戲 Mod](/wiki/Game_modifier)*
+*若要查看 Mod 列表，請見：[遊戲 Mod](/wiki/Gameplay/Game_modifier)*
 
 ## 關於
 

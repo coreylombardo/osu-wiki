@@ -1,5 +1,7 @@
 ---
 no_native_review: true
+outdated_since: 8951e9fef0bc292f2b085b7c3a400db936392e49
+outdated_translation: true
 ---
 
 # 解鎖條件
@@ -10,6 +12,7 @@ no_native_review: true
 - [圖譜包](Beatmap_packs)
 - [圖譜聚光燈](Beatmap_spotlights)
 - [廢寢忘食](Dedication)
+- [Hush-Hush](Hush-hush)
 - [Mod 入門](Mod_introduction)
 - [季節聚光燈](Seasonal_spotlights)
 - [得心應手](Skill)

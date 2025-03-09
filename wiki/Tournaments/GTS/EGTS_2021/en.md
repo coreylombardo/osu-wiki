@@ -410,7 +410,7 @@ Saturday, 30 October 2021:
 | **Raphalge** ::{ flag=SE }:: | **6** | 3 | ::{ flag=CA }:: Nanners | [#1](https://osu.ppy.sh/community/matches/93189580) |
 | **Six b0xes** ::{ flag=SG }:: | **6** | 2 | ::{ flag=TR }:: frukoyurdakul | [#1](https://osu.ppy.sh/community/matches/93193467) |
 | 4sbet1 ::{ flag=JP }:: | -1 | **0** | ::{ flag=NZ }:: **Sparxe** | *win by default* |
-| **vodnanen** ::{ flag=JP }:: | **6** | 4 | ::{ flag=AU }:: r1chyy | [#1](https://osu.ppy.sh/community/matches/93197839) |
+| **vodnanen** ::{ flag=FI }:: | **6** | 4 | ::{ flag=AU }:: r1chyy | [#1](https://osu.ppy.sh/community/matches/93197839) |
 | **hz404** ::{ flag=JP }:: | **6** | 0 | ::{ flag=CN }:: shoucan91 | [#1](https://osu.ppy.sh/community/matches/93200139) |
 | Pochacco ::{ flag=PH }:: | -1 | **0** | ::{ flag=US }:: **Whulf** | *win by default* |
 | **Sparxe** ::{ flag=NZ }:: | **6** | 3 | ::{ flag=MY }:: HHVanilla Ice | [#1](https://osu.ppy.sh/community/matches/93200108) |
@@ -618,7 +618,7 @@ Saturday, 9 October 2021:
 | Player 1 |  |  | Player 2 | Match link |
 | --: | :-: | :-: | :-- | :-- |
 | **ekumea1123** ::{ flag=JP }:: | **0** | -1 | ::{ flag=AR }:: Auredios | *win by default* |
-| **Jonah** ::{ flag=KR }::  | **0** | -1 | ::{ flag=US }:: Inigo | *win by default* |
+| **Jonah** ::{ flag=KR }:: | **0** | -1 | ::{ flag=US }:: Inigo | *win by default* |
 | **r1chyy** ::{ flag=AU }:: | **5** | 0 | ::{ flag=JP }:: Matusa Bomber | [#1](https://osu.ppy.sh/community/matches/92116815) |
 | **C-light** ::{ flag=JP }:: | **0** | -1 | ::{ flag=US }:: BWithey | *win by default* |
 | **5henry** ::{ flag=KR }:: | **5** | 0 | ::{ flag=SG }:: I luv loleez | [#1](https://osu.ppy.sh/community/matches/92123464) |

@@ -4,7 +4,7 @@ legal: true
 
 # osu! privacy policy
 
-Last Updated 16th April 2021. [View history here](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
+Last Updated 3th Sep 2024. [View history here](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
 
 In addition to this policy, please also make sure to visit and understand our [Terms of Service](/wiki/Legal/Terms).
 
@@ -70,7 +70,7 @@ osu! contains executable code that is used to detect the usage of cheat software
 - If the anti-cheat determines you are cheating, then this fact in addition to proof in the form of diagnostics and metadata are sent to our servers for verification. If you are not cheating, no anti-cheat data will be transmitted.
 - Even on detection, a best effort attempt is made to never send any information outside of the osu! ecosystem which could be used to personally identify you.
 - Transmitted metadata is only retained on our server for the duration it is useful. This is generally hours to days while we analyse the reported content.
-- Analysis is largely automated. Transmitted metadata is not accessible by support team members, and must be accessed via multi-layered security. Only database server admins are able to view metadata. 
+- Analysis is largely automated. Transmitted metadata is not accessible by support team members, and must be accessed via multi-layered security. Only database server admins are able to view metadata.
 
 We respect and value your privacy and do not wish to impose fear on legitimate users by having anti-cheat present in the game.
 
@@ -120,7 +120,7 @@ osu! services are not designed for children under the age of 13. If we discover 
 
 Hi, I am Dean (commonly known as peppy) and I am your data controller. If you have any privacy concerns or requests to exercise your legal rights, don't hesitate to contact me directly at the address listed below.
 
-**Email**: [privacy@ppy.sh](mailto:privacy@ppy.sh) (24 hour response guaranteed)
+**Email**: [privacy@ppy.sh](mailto:privacy@ppy.sh)
 
 **Postal Address**:
 

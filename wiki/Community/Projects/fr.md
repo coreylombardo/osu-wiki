@@ -1,5 +1,7 @@
 ---
 outdated: true
+outdated_since: 15f9a73dacf15d967d9557a35f90b7b3fb81f2ed
+outdated_translation: true
 ---
 
 # Projets
@@ -26,7 +28,7 @@ outdated: true
 - osu!web—La partie d'osu! qui fait face au navigateur.
   - [GitHub](https://github.com/ppy/osu-web) | [Site web](https://osu.ppy.sh/home)
 - [osu!wiki](https://osu.ppy.sh/community/forums/topics/68479)—Maisons d'information sur osu!.
-  - [GitHub](https://github.com/ppy/osu-wiki) | [Site web](/wiki/Main_Page)
+  - [GitHub](https://github.com/ppy/osu-wiki) | [Site web](/wiki/Main_page)
 
 ## Communauté
 
@@ -154,7 +156,7 @@ Outils et/ou services créés par la communauté d'osu!. Vous êtes libres d'ajo
 
 - [AIBat](https://osu.ppy.sh/community/forums/topics/55305)—Une tentative de rendre le modding plus facile pour les modders.
   - [GitHub](https://github.com/akrolsmir/AIBat)
-- [Mapset Verifier](https://osu.ppy.sh/community/forums/topics/943895)—Détecteur de problèmes avec les [critères de ranking](/wiki/Ranking_Criteria).
+- [Mapset Verifier](https://osu.ppy.sh/community/forums/topics/943895)—Détecteur de problèmes avec les [critères de ranking](/wiki/Ranking_criteria).
   - [GitHub](https://github.com/Naxesss/MapsetVerifier)
 - [Mod Helper](https://osu.ppy.sh/community/forums/topics/527602)—Un outil pour vous aider à gérer le BBCode lorsque vous moddez.
 - [Osu Distance Checker](https://osu.ppy.sh/community/forums/topics/55305)—Énumère les différentes distances de l'objet pour permettre d'examiner les erreurs potentielles d'espacement.
@@ -231,10 +233,8 @@ Outils et/ou services créés par la communauté d'osu!. Vous êtes libres d'ajo
 
 - [Bonus PP calculator](https://osu.ppy.sh/community/forums/topics/538470)—Calcule le nombre de pp bonus d'un utilisateur.
   - [GitHub](https://github.com/RoanH/osu-BonusPP)
-- haitai—Conditions de déblocage pour les [médailles](/wiki/Medals) d'osu!.
-  - [Site](http://haitai.jp/)
-- [osekai](https://osu.ppy.sh/community/forums/topics/1427698)—Une équipe dédiée à la création de sites web pour osu! tels que les conditions de déblocage des médailles ou les classements alternatifs.
-  - [Site](https://osekai.net/)
+- [Osekai](https://osu.ppy.sh/community/forums/topics/1427698)—Un projet open-source dédié à la création de sites web fortement liés à osu!, comme la liste [des conditions de déblocage des médailles](/wiki/Medals/Unlock_requirements) ou des classements alternatifs.
+  - [GitHub](https://github.com/Osekai/osekai) | [Site](https://osekai.net/)
 - [osu! level calculator](https://osu.ppy.sh/community/forums/topics/199230)—Calcule le score nécessaire pour atteindre un certain niveau.
   - [GitHub](https://github.com/thehowl/OsuLevelCalculator) | [Site](https://olc.howl.moe/)
 - [osu! Stats Watcher](https://osu.ppy.sh/community/forums/topics/269483)—Enregistre les statistiques d'un joueur dans un fichier, qui peut ensuite être affiché à l'aide d'Open Broadcaster Software.

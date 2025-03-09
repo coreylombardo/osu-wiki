@@ -18,7 +18,7 @@ Pudes ver los círculos en la pantalla inferior, y en la pantalla superior tiene
 
 *Explicación completa: [osu! Standard](/wiki/Game_mode/osu!)*
 
-Aunque la mayoría de los usuarios de PC no tiene una pantalla táctil a su disposición, este juego fue hecho para ser jugable con un ratón normal, así como cualquier número de dispositivos de entrada que puedas imaginar. Los diferentes estilos de juego pueden ser encontrados en [ésta](/wiki/Play_style) página. Existen algunas canciones que prolongan los límites del ratón normal (y de ti), pero todos los beatmaps ([rankeados](/wiki/Beatmap/Category#beatmaps-rankeados) y aprobados) han sido probados y (la mayoría) son posibles de pasar solo con un ratón.
+Aunque la mayoría de los usuarios de PC no tiene una pantalla táctil a su disposición, este juego fue hecho para ser jugable con un ratón normal, así como cualquier número de dispositivos de entrada que puedas imaginar. Los diferentes estilos de juego pueden ser encontrados en [ésta](/wiki/Gameplay/Play_style) página. Existen algunas canciones que prolongan los límites del ratón normal (y de ti), pero todos los beatmaps ([rankeados](/wiki/Beatmap/Category#ranked) y aprobados) han sido probados y (la mayoría) son posibles de pasar solo con un ratón.
 
 #### Lo Básico del Juego
 
@@ -26,7 +26,7 @@ Aunque la mayoría de los usuarios de PC no tiene una pantalla táctil a su disp
 
 El juego pone énfasis en:
 
-- La capacidad de adaptación y reacción a los estímulos (así es, los ["Hit Objects"](/wiki/Hit_object) aparecen en pantalla a la velocidad de la luz)
+- La capacidad de adaptación y reacción a los estímulos (así es, los ["Hit Objects"](/wiki/Gameplay/Hit_object) aparecen en pantalla a la velocidad de la luz)
 - Entender el ritmo y diseño de la canción.
 - El control sobre tu ratón (o tus habilidades de dedos/uso de bolígrafo si estás usando una tablet en su lugar)
 - Sincronizar tus toques con el objeto que aparece en la pantalla.
@@ -71,7 +71,7 @@ Vamos a aprender cuáles son los objetos ¿De acuerdo?
     - Si no mantienes ningún botón antes de dar vueltas, no podrás llenar el medidor de SPM.
 - En el DS, esta es una buena manera de rayar tu pantalla táctil (o protector de pantalla), especialmente en las mayores dificultades.
 - En osu!, los spinners han sido atenuados para que no sean molestos de completar.
-  - El máximo número de spins por minuto posible es 477 que es también la velocidad con la que el mod [Auto](/wiki/Game_modifier/Auto) gira, mientras que el mod [Spun Out](/wiki/Game_modifier/Spun_Out) gira a menos de 287 spins por minuto.
+  - El máximo número de spins por minuto posible es 477 que es también la velocidad con la que el mod [Auto](/wiki/Gameplay/Game_modifier/Auto) gira, mientras que el mod [Spun Out](/wiki/Gameplay/Game_modifier/Spun_Out) gira a menos de 287 spins por minuto.
   - Practica y trata de girar en cículos muy pequeños (como hace el mod Auto, pero poniendo un esfuerzo en tu brazo si es que no estás acostumbrado.)
 - \[Ratón\]**Si tu cursor no gira en absoluto, o se mueve estáticamente a pesar de que giras muy rápido. O bien entiende que es el límite de tu ratón o consigue un mejor ratón/mousepad**.
   - Un ratón convencional puede sufrir este problema, y lo mejor es **empezar a girar lentamente en lugar de girar muy rápido repentinamente** de modo que el ratón pueda detectar lo que estás haciendo.
@@ -84,14 +84,36 @@ Esta es la interfaz del estilo de juego osu! Standard.
 
 - La barra superior izquierda muestra tu "salud".
   - Esta disminuirá a un ritmo constante \[dependiendo de la dificultad del beatmap establecida por el(los) [mapper(s)](/wiki/Beatmapping), pero puedes reponerlo presionando las notas en el momento correcto.
-  - Un "hit" (golpe) perfecto ([300](/wiki/Gameplay/Score/osu!) o Geki Beat) incrementará tu salud más que un hit mal hecho([50](/wiki/Gameplay/Score/osu!)).
+  - Un "hit" (golpe) perfecto ([300](/wiki/Gameplay/Score/ScoreV1/osu!) o Geki Beat) incrementará tu salud más que un hit mal hecho([50](/wiki/Gameplay/Score/ScoreV1/osu!)).
   - Muchos errores quitarán una buena parte de tu salud.
 - Al lado de la barra de salud (a la derecha) se muestra tu puntaje.
 - Debajo del puntaje está tu precisión.
 - El círculo al lado de tu precisión y debajo de tu puntaje es la barra de tiempo, que muestra la duración de la canción.
 - El número en la parte inferior izquierda es el contador de combo/multiplicador de puntaje.
 
-## Otros Modos de Juego
+### Controles
+
+Los controles predeterminados para osu! son:
+
+| Ratón | Teclado | Tableta |
+| :-- | :-- | :-- |
+| Clic izquierdo (M1) / Clic derecho (M2) | `Z` (K1) / `X` (K2) | Tocar la pantalla/tableta (M1) |
+
+Los objetos en osu! aceptarán cualquier entrada proveniente del dispositivo de entrada, siempre que los objetos sean presionados en el momento correcto.
+
+Si se está usando el modificador del juego [Relax](/wiki/Gameplay/Game_modifier/Relax), solo funcionará el cursor y se deshabilitarán los botones del teclado/ratón/lápiz. Usa el cursor para seguir a los objetos mientras estos se presionan automaticamente. Sin embargo, los spinners deberán ser completados normalmente.
+
+Si se está usando el modificador del juego [Auto Pilot](/wiki/es/Gameplay/Game_modifier/Autopilot), solo funcionará la entrada del teclado/ratón/lápiz pero se deshabilitará el movimiento del cursor. Usa los botones para presionar a tiempo los objetos mientras el cursor los sigue automaticamente. Los spinners seguirán la velocidad del mod [Spun Out](/wiki/Gameplay/Game_modifier/Spun_Out)
+
+---
+
+## Otros modos de juego
+
+### Cómo cambiar el modo de juego
+
+![Menú de cambio de modo en el selector de canciones (Solo)](/wiki/shared/Interface_mode.png "Menú de cambio de modo en el selector de canciones (Solo)")
+
+Haz clic en el botón `Mode` para **abrir una lista con los modos de juego disponibles en osu!**. Haz clic en el modo de juego deseado y osu! cambiará al modo de juego deseado. También puedes presionar las teclas `Ctrl` y `1` (![][osu!] *[osu!](/wiki/Game_mode/osu!))* / `2` ( ![][osu!taiko] *[osu!taiko](/wiki/Game_mode/osu!taiko)*) / `3` (![][osu!catch] *[osu!catch](/wiki/Game_mode/osu!catch)*) / `4` (![][osu!mania] *[osu!mania](/wiki/Game_mode/osu!mania)*) para cambiar rápidamente entre los modos de juego
 
 ### ¿Qué es "Taiko"?
 
@@ -154,7 +176,7 @@ Puedes configurar los botones del teclado como te parezca cómodo, desde la pest
 
 #### Controlando al catcher
 
-Si el mod [Relax](/wiki/Game_modifier/Relax) es usado, el catcher se controla moviendo el ratón.
+Si el mod [Relax](/wiki/Gameplay/Game_modifier/Relax) es usado, el catcher se controla moviendo el ratón.
 
 - Por defecto, las flechas izquierda \[<-\] y derecha \[->\] son usadas para mover al catcher.
 - Presionando la tecla SHIFT con alguna de las flechas, el catcher correrá en la dirección indicada a una velocidad de x1.5 (indicada por un brillante resplandor rodeando al catcher).
@@ -222,8 +244,8 @@ Disposición de teclas*de Izquierda a Derecha* (Para el estilo Beatmania IIDX)
 
 **Notas Especiales:**
 
-- SS de plata (SSH) = 100% de precisión con el(los) mod(s) '[Hidden](/wiki/Game_modifier/Hidden)' y/o '[Flashlight](/wiki/Game_modifier/Flashlight)'.
-- S de plata (SH) = Encima del 90% de 300s, menos del 1% de 50s y sin errores con el(los) mod(s) '[Hidden](/wiki/Game_modifier/Hidden)' y/o '[Flashlight](/wiki/Game_modifier/Flashlight)'.
+- SS de plata (SSH) = 100% de precisión con el(los) mod(s) '[Hidden](/wiki/Gameplay/Game_modifier/Hidden)' y/o '[Flashlight](/wiki/Gameplay/Game_modifier/Flashlight)'.
+- S de plata (SH) = Encima del 90% de 300s, menos del 1% de 50s y sin errores con el(los) mod(s) '[Hidden](/wiki/Gameplay/Game_modifier/Hidden)' y/o '[Flashlight](/wiki/Gameplay/Game_modifier/Flashlight)'.
 
 **En cuanto a los "Ranks" (rangos) en la página del perfil:**
 
@@ -247,7 +269,7 @@ Puedes encontrarlos en la página principal bajo el nombre de "[Beatmaps](https:
 
 ### ¿Puedo desactivar el "Kiai Time"?
 
-No, porque a diferencia del video, estos son integrados en el juego (como parte de los objetos), por lo tanto no puede ser desactivado.
+No, porque a diferencia del vídeo, estos son integrados en el juego (como parte de los objetos), por lo tanto no puede ser desactivado.
 
 ### ¡Los beatmaps son muy difíciles! ¿Dónde puedo encontrar algunos beatmaps más fáciles?
 
@@ -286,3 +308,8 @@ Soltaste un slider demasiado pronto. También es posible perder el combo si lo e
 - Entrenamiendo para principiantes de Pokebis [1](https://osu.ppy.sh/community/forums/topics/5456)
 - Wikipedia [2](http://en.wikipedia.org/wiki/Osu!_Tatakae!_Ouendan), [3](http://en.wikipedia.org/wiki/Taiko_no_Tatsujin)
 - Reddit's /r/osugame/wiki [4](http://www.reddit.com/r/osugame/wiki/index)
+
+[osu!]: /wiki/shared/mode/osu.png "osu!"
+[osu!taiko]: /wiki/shared/mode/taiko.png "osu!taiko"
+[osu!catch]: /wiki/shared/mode/catch.png "osu!catch"
+[osu!mania]: /wiki/shared/mode/mania.png "osu!mania"

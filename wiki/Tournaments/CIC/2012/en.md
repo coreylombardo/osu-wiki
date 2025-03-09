@@ -48,7 +48,7 @@ The Catch the Beat Indonesia Cup 2012 was run by various Indonesian osu!catch co
 | :-: | :-- | :-- |
 | **A** | ::{ flag=ID }:: [swtboy](https://osu.ppy.sh/users/557944) | ::{ flag=ID }:: [dOen9](https://osu.ppy.sh/users/1114648) |
 | **B** | ::{ flag=ID }:: [Sheratan](https://osu.ppy.sh/users/960553) | ::{ flag=ID }:: [pacmanmania](https://osu.ppy.sh/users/942688) |
-| **C** | ::{ flag=ID }:: [Arashi354](https://osu.ppy.sh/users/897082) | ::{ flag=ID }:: [moon\[light\]](https://osu.ppy.sh/users/478598) |
+| **C** | ::{ flag=ID }:: [Arashi354](https://osu.ppy.sh/users/897082) | ::{ flag=ID }:: [moon\[light\]](https://osu.ppy.sh/users/478958) |
 | **D** | ::{ flag=ID }:: [Sumatran](https://osu.ppy.sh/users/414409) | ::{ flag=ID }:: [nirvashzero](https://osu.ppy.sh/users/1254373) |
 | **E** | ::{ flag=ID }:: Intel21 | ::{ flag=ID }:: akukadal2 |
 | **F** | ::{ flag=ID }:: [shinyurihara](https://osu.ppy.sh/users/546580) | ::{ flag=ID }:: [Lady Vamps](https://osu.ppy.sh/users/611642) |
@@ -180,7 +180,7 @@ Due to old multiplayer data purged, match links are not available.
 
 Saturday, 28 July 2012:
 
-| Match type | Player 1 |  |  |  Player 2 |
+| Match type | Player 1 |  |  | Player 2 |
 | :-: | --: | :-: | :-: | :-- |
 | Championship | [nirvashzero](https://osu.ppy.sh/users/1254373) ::{ flag=ID }:: | 0 | **3** | ::{ flag=ID }:: **[Rey-volution](https://osu.ppy.sh/users/883990)** |
 | Consolation | **Intel21** ::{ flag=ID }:: | **3** | 0 | ::{ flag=ID }:: [r3yn41d0](https://osu.ppy.sh/users/500032) |
@@ -189,7 +189,7 @@ Saturday, 28 July 2012:
 
 Thursday, 12 July 2012:
 
-| Group | Player 1 |  |  |  Player 2 |
+| Group | Player 1 |  |  | Player 2 |
 | :-: | --: | :-: | :-: | :-- |
 | A | **[Rey-volution](https://osu.ppy.sh/users/883990)** ::{ flag=ID }:: | **3** | 0 | ::{ flag=ID }:: [r3yn41d0](https://osu.ppy.sh/users/500032) |
 
@@ -201,7 +201,7 @@ Thursday, 12 July 2012:
 
 Friday, 29 June 2012:
 
-| Group | Player 1 |  |  |  Player 2 |
+| Group | Player 1 |  |  | Player 2 |
 | :-: | --: | :-: | :-: | :-- |
 | A | [pacmanmania](https://osu.ppy.sh/users/942688) ::{ flag=ID }:: | 0 | **3** | ::{ flag=ID }:: **[nirvashzero](https://osu.ppy.sh/users/1254373)** |
 | B | [Yumi14](https://osu.ppy.sh/users/844165) ::{ flag=ID }:: | 0 | **3** | ::{ flag=ID }:: **Intel21** |
@@ -212,7 +212,7 @@ Friday, 29 June 2012:
 
 Saturday, 09 June 2012:
 
-| Group | Player 1 |  |  |  Player 2 |
+| Group | Player 1 |  |  | Player 2 |
 | :-: | --: | :-: | :-: | :-- |
 | B | [Arashi354](https://osu.ppy.sh/users/897082) ::{ flag=ID }:: | 0 | **3** | ::{ flag=ID }:: **[nirvashzero](https://osu.ppy.sh/users/1254373)** |
 | C | **Intel21** ::{ flag=ID }:: | **3** | 0 | ::{ flag=ID }:: [Lady Vamps](https://osu.ppy.sh/users/611642) |
@@ -230,22 +230,22 @@ Saturday, 09 June 2012:
 
 Sunday, 29 April 2012:
 
-| Group | Player 1 |  |  |  Player 2 |
+| Group | Player 1 |  |  | Player 2 |
 | :-: | --: | :-: | :-: | :-- |
 | I | **[Drexel13](https://osu.ppy.sh/users/1140567)** ::{ flag=ID }:: | **3** | 2 | ::{ flag=ID }:: [AeroRange](https://osu.ppy.sh/users/405659) |
 | L | **[urs4chan](https://osu.ppy.sh/users/321063)** ::{ flag=ID }:: | **3** | 2 | ::{ flag=ID }:: [KateCisu](https://osu.ppy.sh/users/754762) |
-| C | **[Arashi354](https://osu.ppy.sh/users/897082)** ::{ flag=ID }:: | **3** | 0 | ::{ flag=ID }:: [moon\[light\]](https://osu.ppy.sh/users/478598) |
+| C | **[Arashi354](https://osu.ppy.sh/users/897082)** ::{ flag=ID }:: | **3** | 0 | ::{ flag=ID }:: [moon\[light\]](https://osu.ppy.sh/users/478958) |
 
 Saturday, 05 May 2012:
 
-| Group | Player 1 |  |  |  Player 2 |
+| Group | Player 1 |  |  | Player 2 |
 | :-: | --: | :-: | :-: | :-- |
 | E | **Intel21** ::{ flag=ID }:: | **3** | 2 | ::{ flag=ID }:: akukadal2 |
 | F | [shinyurihara](https://osu.ppy.sh/users/546580) ::{ flag=ID }:: | 0 | **3** | ::{ flag=ID }:: **[Lady Vamps](https://osu.ppy.sh/users/611642)** |
 
 Thursday, 10 May 2012:
 
-| Group | Player 1 |  |  |  Player 2 |
+| Group | Player 1 |  |  | Player 2 |
 | :-: | --: | :-: | :-: | :-- |
 | D | [Sumatran](https://osu.ppy.sh/users/414409) ::{ flag=ID }:: | 1 | **3** | ::{ flag=ID }:: **[nirvashzero](https://osu.ppy.sh/users/1254373)** |
 | M | **[paitehoens](https://osu.ppy.sh/users/553993)** ::{ flag=ID }:: | **3** | 0 | ::{ flag=ID }:: [rezaantoni](https://osu.ppy.sh/users/1093954) |

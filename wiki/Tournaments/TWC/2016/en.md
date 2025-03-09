@@ -8,7 +8,7 @@ tags:
 
 ![TWC 2016 logo](img/logo.jpg)
 
-The **osu!taiko World Cup 2016** (***TWC 2016***) was a country-based osu!taiko tournament hosted by the [osu! team](/wiki/People/The_Team). It was the sixth instalment of the osu!taiko World Cup.
+The **osu!taiko World Cup 2016** (***TWC 2016***) was a country-based osu!taiko tournament hosted by the [osu! team](/wiki/People/osu!_team). It was the sixth instalment of the osu!taiko World Cup.
 
 ## Tournament schedule
 
@@ -27,9 +27,9 @@ The **osu!taiko World Cup 2016** (***TWC 2016***) was a country-based osu!taiko 
 
 | Placing | Prizes |
 | :-: | :-- |
-| ![Gold crown](/wiki/shared/crown-gold.png "1st place") | 50% of the raised prize pool, unique profile badge, "osu!taiko Champion" user title for one year |
-| ![Silver crown](/wiki/shared/crown-silver.png "2nd place") | 38% of the raised prize pool, unique profile badge |
-| ![Bronze crown](/wiki/shared/crown-bronze.png "3rd place") | 12% of the raised prize pool, unique profile badge |
+| ![Gold crown](/wiki/shared/crown-gold.png "1st place") | $300 per team member, unique profile badge, "osu!taiko Champion" user title for one year |
+| ![Silver crown](/wiki/shared/crown-silver.png "2nd place") | $160 per team member, unique profile badge |
+| ![Bronze crown](/wiki/shared/crown-bronze.png "3rd place") | $80 per team member, unique profile badge |
 
 ![](img/badge.jpg "TWC 2016 winner badge") ![](img/badge2.jpg "TWC 2016 2nd place badge") ![](img/badge3.jpg "TWC 2016 3rd place badge")
 
@@ -59,7 +59,7 @@ The osu!taiko World Cup 2016 was run by various community members.
 | ::{ flag=AU }:: | **Australia** | **[dajayeway](https://osu.ppy.sh/users/4841352)**, [Aloda](https://osu.ppy.sh/users/1190127), [andrew000000](https://osu.ppy.sh/users/122174), [dayjayweigh](https://osu.ppy.sh/users/6185399), [TimmyTimTims](https://osu.ppy.sh/users/1254926), [TitansHD](https://osu.ppy.sh/users/3842620) |
 | ::{ flag=BR }:: | **Brazil** | **[LuckySonicGHz](https://osu.ppy.sh/users/3949268)**, [Akyuu](https://osu.ppy.sh/users/2959941), [MordRyze](https://osu.ppy.sh/users/3247818), [Skull Kid](https://osu.ppy.sh/users/3044264), [suyama-chan](https://osu.ppy.sh/users/928298), [taikorage](https://osu.ppy.sh/users/3684443) |
 | ::{ flag=CA }:: | **Canada** | **[Fudgyking](https://osu.ppy.sh/users/3802922)**, [IControl](https://osu.ppy.sh/users/2307285), [janitoreihil](https://osu.ppy.sh/users/3307897), [Stevenrama](https://osu.ppy.sh/users/3649978), [Tasha](https://osu.ppy.sh/users/1031958), [vladyushko](https://osu.ppy.sh/users/4908773) |
-| ::{ flag=CL }:: | **Chile** | **[-Anhedonia-](https://osu.ppy.sh/users/920861)**, [joel](https://osu.ppy.sh/users/2244644), [Kioshinxs](https://osu.ppy.sh/users/2729797), [le gagoguigo3](https://osu.ppy.sh/users/8057655), [MikuWRS](https://osu.ppy.sh/users/1619547), [PUPA](https://osu.ppy.sh/users/PUPA) |
+| ::{ flag=CL }:: | **Chile** | **[-Anhedonia-](https://osu.ppy.sh/users/920861)**, [joel](https://osu.ppy.sh/users/2244644), [Kioshinxs](https://osu.ppy.sh/users/2729797), [le gagoguigo3](https://osu.ppy.sh/users/8057655), [MikuWRS](https://osu.ppy.sh/users/1619547), [PUPA](https://osu.ppy.sh/users/6279210) |
 | ::{ flag=CN }:: | **China** | **[moe moe moe](https://osu.ppy.sh/users/1804904)**, [- Yuuka Niya -](https://osu.ppy.sh/users/1892059), [akaimo\_m3](https://osu.ppy.sh/users/6294200), [bxczyb](https://osu.ppy.sh/users/426357), [HimemiyaChikane](https://osu.ppy.sh/users/3672537), [Nikubenki Saya](https://osu.ppy.sh/users/2250591) |
 | ::{ flag=FR }:: | **France** | **[Nashmun](https://osu.ppy.sh/users/49031)**, [Arrival](https://osu.ppy.sh/users/1694000), [Ekoro](https://osu.ppy.sh/users/284905), [FrancisRave](https://osu.ppy.sh/users/1733728), [omegaflo](https://osu.ppy.sh/users/83291), [Nofool](https://osu.ppy.sh/users/672430) |
 | ::{ flag=DE }:: | **Germany** | **[\[TaikoTori\]](https://osu.ppy.sh/users/1074143)**, [Chromoxx](https://osu.ppy.sh/users/1881639), [Golden Week](https://osu.ppy.sh/users/5822345), [Mew104](https://osu.ppy.sh/users/2345156), [Xay](https://osu.ppy.sh/users/961417), [Zetera](https://osu.ppy.sh/users/587737) |
@@ -70,7 +70,7 @@ The osu!taiko World Cup 2016 was run by various community members.
 | ::{ flag=MY }:: | **Malaysia** | **[taiko\_maniac1811](https://osu.ppy.sh/users/595764)**, [huiko12](https://osu.ppy.sh/users/598553), [Jerry](https://osu.ppy.sh/users/605973), [ZYuan](https://osu.ppy.sh/users/3337688) |
 | ::{ flag=PH }:: | **Philippines** | **[jmeh07](https://osu.ppy.sh/users/2852269)**, [Alkaeid](https://osu.ppy.sh/users/567322), [Pochacco](https://osu.ppy.sh/users/2927742), [Rumovik](https://osu.ppy.sh/users/3831514), [senkai](https://osu.ppy.sh/users/1150178) |
 | ::{ flag=PL }:: | **Poland** | **[Acrith](https://osu.ppy.sh/users/389880)**, [1miko1](https://osu.ppy.sh/users/95690), [CreepyDuck](https://osu.ppy.sh/users/2435013), [Elfie](https://osu.ppy.sh/users/1676016), [-Jamu-](https://osu.ppy.sh/users/2271556), [Mihaugoku](https://osu.ppy.sh/users/6401769) |
-| ::{ flag=RU }:: | **Russian Federation** | **[magax](https://osu.ppy.sh/users/918645)**, Alt\_Hg, [koprofagg](https://osu.ppy.sh/users/5371287), [Lover](https://osu.ppy.sh/users/1359539), [Youth](https://osu.ppy.sh/users/4993235) |
+| ::{ flag=RU }:: | **Russian Federation** | **[magax](https://osu.ppy.sh/users/918645)**, [Alt\_Hg](https://osu.ppy.sh/users/736496), [koprofagg](https://osu.ppy.sh/users/5371287), [Lover](https://osu.ppy.sh/users/1359539), [Youth](https://osu.ppy.sh/users/4993235) |
 | ::{ flag=SG }:: | **Singapore** | **[taikoplayer123](https://osu.ppy.sh/users/3580055)**, [BlindReaper](https://osu.ppy.sh/users/2446062), [ditcherer](https://osu.ppy.sh/users/1632105), [Element118](https://osu.ppy.sh/users/2283992), [neonat](https://osu.ppy.sh/users/1561995), [SilverSufuru](https://osu.ppy.sh/users/3769280) |
 | ::{ flag=KR }:: | **South Korea** | **[Runa](https://osu.ppy.sh/users/4643294)**, [applerss](https://osu.ppy.sh/users/983349), [bbj0920](https://osu.ppy.sh/users/87546), [Ni-Sokkususu](https://osu.ppy.sh/users/1807472), [Quizmaegi](https://osu.ppy.sh/users/2228401) |
 | ::{ flag=ES }:: | **Spain** | **[LZD](https://osu.ppy.sh/users/224335)**, [Daigo](https://osu.ppy.sh/users/3687287), [Hanjamon](https://osu.ppy.sh/users/1703330), [Maitroxsk](https://osu.ppy.sh/users/4875451), [MYRKUL](https://osu.ppy.sh/users/255933), [Raiden](https://osu.ppy.sh/users/2239480) |
@@ -82,11 +82,16 @@ The osu!taiko World Cup 2016 was run by various community members.
 
 ## Groups
 
-| Group A | Group B | Group C | Group D | Group E | Group F | Group G | Group H |
-| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-| ::{ flag=AU }:: Australia | ::{ flag=VE }:: Venezuela | ::{ flag=BR }:: Brazil | ::{ flag=MY }:: Malaysia | ::{ flag=SG }:: Singapore | ::{ flag=RU }:: Russian Federation | ::{ flag=SE }:: Sweden | ::{ flag=IT }:: Italy |
-| ::{ flag=GB }:: United Kingdom | ::{ flag=AR }:: Argentina | ::{ flag=CL }:: Chile | ::{ flag=ID }:: Indonesia | ::{ flag=PH }:: Philippines | ::{ flag=ES }:: Spain | ::{ flag=FR }:: France | ::{ flag=PL }:: Poland |
-| ::{ flag=TW }:: Taiwan | ::{ flag=HK }:: Hong Kong | ::{ flag=US }:: United States | ::{ flag=DE }:: Germany | ::{ flag=KR }:: South Korea | ::{ flag=JP }:: Japan | ::{ flag=CN }:: China | ::{ flag=CA }:: Canada |
+| Group | Top seed | Medium seed | Low seed |
+| :-: | :-- | :-- | :-- |
+| **A** | ::{ flag=TW }:: Taiwan | ::{ flag=GB }:: United Kingdom | ::{ flag=AU }:: Australia |
+| **B** | ::{ flag=HK }:: Hong Kong | ::{ flag=AR }:: Argentina | ::{ flag=VE }:: Venezuela |
+| **C** | ::{ flag=US }:: United States | ::{ flag=CL }:: Chile | ::{ flag=BR }:: Brazil |
+| **D** | ::{ flag=DE }:: Germany | ::{ flag=ID }:: Indonesia | ::{ flag=MY }:: Malaysia |
+| **E** | ::{ flag=KR }:: South Korea | ::{ flag=PH }:: Philippines | ::{ flag=SG }:: Singapore |
+| **F** | ::{ flag=JP }:: Japan | ::{ flag=ES }:: Spain | ::{ flag=RU }:: Russian Federation |
+| **G** | ::{ flag=CN }:: China | ::{ flag=FR }:: France | ::{ flag=SE }:: Sweden |
+| **H** | ::{ flag=CA }:: Canada | ::{ flag=PL }:: Poland | ::{ flag=IT }:: Italy |
 
 ![](img/bracket.jpg "TWC 2016 bracket")
 
@@ -103,7 +108,7 @@ The osu!taiko World Cup 2016 was run by various community members.
 **[Download the mappack here! (122 MB)](https://www.mediafire.com/download/4px14n1o2cpqc8e/TWC_2016_Finals_Mappack.rar)**
 
 - NoMod
-  1. [Caladborg - invoker (-Anhedonia-) \[Taikocalypse\]](https://osu.ppy.sh/beatmapsets/351126#taiko773846)
+  1. [Caladborg - invoker (-Anhedonia-) \[Taikocalypse\]](https://osu.ppy.sh/beatmapsets/351126#taiko/1495790)
   2. [sasakure.UK & OSTER Project - Utopia of Oz (\_yu68) \[Inner Oni\]](https://osu.ppy.sh/beatmapsets/421303#taiko/911280)
   3. [t+pazolite - Garakuta Doll Play (sasakure.UK clutter remix) (Love) \[Love\]](https://osu.ppy.sh/beatmapsets/424222#taiko/916478)
   4. [Kobaryo - Always TANO\*C (Kobaryo's FTN-Remix) (R i n g o) \[Ringo's TANO\*C\]](https://osu.ppy.sh/beatmapsets/288061#taiko/649735)
@@ -363,7 +368,7 @@ Sunday, 20 March 2016:
 1. The osu!taiko World Cup is a country-based 3 versus 3 team tournament, played on the osu!taiko game mode only.
 2. The maps for each round will be announced by the mapset selector in advance on the Sunday before the actual matches take place. Only these will be used during the respective matches.
    - One map will be given as a tiebreaker map. This map will only be played in case of a tie.
-   - There will also be a [Hidden](/wiki/Game_modifier/Hidden), [HardRock](/wiki/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Game_modifier/Double_Time) and FreeMod bracket.
+   - There will also be a [Hidden](/wiki/Gameplay/Game_modifier/Hidden), [HardRock](/wiki/Gameplay/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Gameplay/Game_modifier/Double_Time) and FreeMod bracket.
 3. Match schedule will be settled by the Tournament Management (see below).
 4. If no staff or referee is available, the match will be postponed.
 5. Failed player's score do not get added to the team score.
@@ -461,7 +466,7 @@ Sunday, 20 March 2016:
 
 1. There will be 1 mappool for the Group Stage, 1 mappool for the Round of 16, 1 mappool for the Quarterfinals, 1 mappool for the Semifinals and 1 mappool for the Finals.
    - Finals and Grand Finals use the same mappool.
-2. Each mappool consists of 5 brackets: NoMod, [Hidden](/wiki/Game_modifier/Hidden), [HardRock](/wiki/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Game_modifier/Double_Time) and FreeMod.
+2. Each mappool consists of 5 brackets: NoMod, [Hidden](/wiki/Gameplay/Game_modifier/Hidden), [HardRock](/wiki/Gameplay/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Gameplay/Game_modifier/Double_Time) and FreeMod.
 3. Each mappool consists of 19 maps in total.
 4. Each mappool has one tiebreaker.
 5. The NoMod bracket will be played with no modes activated.

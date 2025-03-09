@@ -1,12 +1,14 @@
 ---
 outdated: true
+outdated_translation: true
+outdated_since: bc94442500060da779f61b83a02f848b3a9133e1
 ---
 
 <!-- there are small differences with EN that should be fixed. compare line numbers with EN to find those differences easily. -->
 
 # Pengundian Turnamen
 
-Layar pengundian turnamen digunakan untuk menyiarkan berbagai tim ke dalam kelompok-kelompok yang akan bersaing di babak grup untuk sebuah turnamen. Untuk saat ini hanya tersedia di klien [osu!(lazer)](https://github.com/ppy/osu/releases).
+Layar pengundian turnamen digunakan untuk menyiarkan berbagai tim ke dalam kelompok-kelompok yang akan bersaing di babak grup untuk sebuah turnamen. Untuk saat ini hanya tersedia di klien [osu!(lazer)](/wiki/Client/Release_stream/Lazer).
 
 Harap perhatikan bahwa klien osu!(lazer) saat ini sedang dalam masa pengembangan dan berkemungkinan akan bertemu bug.
 
@@ -23,7 +25,7 @@ Selanjutnya, tambahkan baris berikut ke file `drawings.txt`:
 
 ```
 AU : Australia : AUS
-```  
+```
 
 Layar pengundian sekarang siap untuk dipratinjau. Pemahaman mengenai bagaimana tampilan layar pengundian beserta fungsi-fungsinya menjadi poin penting sebelum mulai memodifikasi masing-masing file ini lebih lanjut.
 

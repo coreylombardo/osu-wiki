@@ -33,7 +33,7 @@ Eğer osu!'yu açarken sorunlarla karşılaşıyorsanız, aşağıdaki adımlar�
 
 ## osu!(lazer)
 
-[osu!(lazer)](https://github.com/ppy/osu), henüz geliştirme aşamasında olan gelecekte kullanılacak osu! istemcisidir. Eğer [performans puanı](/wiki/Performance_points) kazanmayı umursamıyorsanız, bu istemciyi denemeniz önerilir. Kurulum için aşağıdaki adımları izleyin:
+[osu!(lazer)](/wiki/Client/Release_stream/Lazer), henüz geliştirme aşamasında olan gelecekte kullanılacak osu! istemcisidir. Kurulum için aşağıdaki adımları izleyin:
 
 1. [osu!(lazer) indirme sayfasına](https://github.com/ppy/osu/releases/latest) gidin, `osu!.app.zip` dosyasını indirin ve dizine çıkarın.
 2. osu!'ya çift tıklayın ve açmak için `Aç` sekmesine tıklayın.

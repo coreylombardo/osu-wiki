@@ -16,7 +16,6 @@ outdated_since: acdcb1efbd3ac94eef628b095b78cbacfcdac000
 - [オーディオ編集](Audio_Editing)
 - [アーティストまたはタイトルの変更](Changing_the_Artist_or_Title)
 - [タイトルテキストの変更](/wiki/Beatmap/Title_text#changing-title-text)
-- [コラボ情報](Collab_Information)
 - [ファイルを圧縮する](Compressing_files)
 - [カスタムヒットサウンドライブラリ](Custom_Hitsound_Library)
 - [カスタムサンプルオーバーライド](Custom_Sample_Overrides)
@@ -25,7 +24,6 @@ outdated_since: acdcb1efbd3ac94eef628b095b78cbacfcdac000
 - [osu!mania マッピングガイド](osu!mania_Mapping_Guide)
 - [正しいビートのオフセットを設定](Setting_the_Offset_on_the_Correct_Beat)
 - [ビートマッププロジェクトの開始](Starting_a_Beatmap_Project)
-- [YouTubeの動画](Videos_from_YouTube)
 
 ## Modding
 
@@ -37,7 +35,6 @@ outdated_since: acdcb1efbd3ac94eef628b095b78cbacfcdac000
 
 - [初心者向けチュートリアル](Beginner's_Tutorial)
 - [オフセットウィザードの使用方法](How_to_Use_the_Offset_Wizard)
-- [ビートマップの検索とダウンロード](Searching_and_Downloading_Beatmaps)
 - [タブレットの購入](Tablet_Purchase)
 
 ## スキニング

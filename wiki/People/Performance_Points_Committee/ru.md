@@ -1,4 +1,6 @@
 ---
+outdated_since: b3cddefc3471a00ccbf55838d26bd1a28d6b3509
+outdated_translation: true
 tags:
   - pp committee
   - комитет по пп
@@ -7,7 +9,7 @@ tags:
 
 # Комитет по очкам производительности
 
-**Комитет по очкам производительности** — группа опытных игроков и разработчиков, которые занимаются разработкой и обновлением алгоритмов, лежащих в основе [pp](/wiki/Performance_points) и [звёзд сложности](/wiki/Beatmapping/Star_rating). Их роль заключается в том, чтобы координировать действия сообщества и помогать остальным [разработчикам osu!](/wiki/People/The_Team/Developers) вносить изменения.
+**Комитет по очкам производительности** — группа опытных игроков и разработчиков, которые занимаются разработкой и обновлением алгоритмов, лежащих в основе [pp](/wiki/Performance_points) и [звёзд сложности](/wiki/Beatmap/Star_rating). Их роль заключается в том, чтобы координировать действия сообщества и помогать остальным [разработчикам osu!](/wiki/People/Developers) вносить изменения.
 
 Группа по osu! впервые появилась в новости [*Performance Points & Star Rating Updates*](https://osu.ppy.sh/home/news/2021-11-09-performance-points-star-rating-updates) ноября 2021 г. в ответ на ранее проведённый в сообществе [опрос](https://osu.ppy.sh/home/news/2021-08-17-pp-sr-survey).
 
@@ -21,10 +23,8 @@ tags:
 
 | Профиль osu! | Профиль GitHub |
 | :-- | :-- |
-| ::{ flag=GB }:: [Apo11o](https://osu.ppy.sh/users/9558549) | [apollo-dw](https://github.com/apollo-dw) |
-| ::{ flag=HU }:: [emu1337](https://osu.ppy.sh/users/2185987) | [emu1337](https://github.com/emu1337) |
-| ::{ flag=AU }:: [MBmasher](https://osu.ppy.sh/users/4498616) | [MBmasher](https://github.com/MBmasher) |
 | ::{ flag=RU }:: [StanR](https://osu.ppy.sh/users/7217455) | [stanriders](https://github.com/stanriders) |
+| ::{ flag=GB }:: [tsunyoku](https://osu.ppy.sh/users/11315329) | [tsunyoku](https://github.com/tsunyoku) |
 
 ### osu!taiko
 
@@ -32,8 +32,18 @@ tags:
 | :-- | :-- |
 | ::{ flag=AU }:: [-Lawtron-](https://osu.ppy.sh/users/11475208) | [Lawtrohux](https://github.com/Lawtrohux) |
 | ::{ flag=GB }:: [Horiiizon](https://osu.ppy.sh/users/8071438) | [Horiiizons](https://github.com/Horiiizons) |
-| ::{ flag=GB }:: [mangomizer](https://osu.ppy.sh/users/1893718) | [mangomizer](https://github.com/mangomizer) |
+| ::{ flag=CA }:: [Natelytle](https://osu.ppy.sh/users/17607667) | [Natelytle](https://github.com/Natelytle) |
 | ::{ flag=MY }:: [vun](https://osu.ppy.sh/users/6932501) | [vunyunt](https://github.com/vunyunt) |
+
+### osu!catch
+
+| Профиль osu! | Профиль GitHub |
+| :-- | :-- |
+| ::{ flag=FR }:: [bastoo0](https://osu.ppy.sh/users/4864877) | [bastoo0](https://github.com/bastoo0) |
+| ::{ flag=US }:: [Secre](https://osu.ppy.sh/users/2306637) | [SecreOsu](https://github.com/SecreOsu) |
+| ::{ flag=GB }:: [Sorceress](https://osu.ppy.sh/users/1913190) | [Sorceress-osu](https://github.com/Sorceress-osu) |
+| ::{ flag=GB }:: [Zoggoth](https://osu.ppy.sh/users/2799946) | [Zoggoth](https://github.com/Zoggoth) |
+| ::{ flag=CA }:: [Zyoulou](https://osu.ppy.sh/users/8668722) | [Flawnpiece](https://github.com/Flawnpiece) |
 
 ### osu!mania
 

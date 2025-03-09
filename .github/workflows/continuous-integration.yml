@@ -10,67 +10,78 @@ on:
       - synchronize
       - edited
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   ci:
     name: changed files
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: inspect binary file sizes
-        shell: bash
-        run: bash scripts/ci/inspect_binary_file_sizes.sh ${{ github.sha }} ${{ github.sha }}
+      - name: create master branch from remote master
+        run: git branch master origin/master
 
       - name: set up Node.js
-        uses: actions/setup-node@v3
+        id: setup-node
+        uses: actions/setup-node@v4
         with:
           cache: npm
-          node-version: 16
+          node-version: 20
 
-      - name: install remark
+      - name: load node_modules from cache
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}-${{ steps.setup-node.outputs.node-version }}
+
+      - name: "if cache is outdated: install node.js dependencies"
+        if: ${{ steps.cache-node-modules.outputs.cache-hit != 'true' }}
         run: npm ci
 
-      - name: run remark on changed files
-        run: bash scripts/ci/run_remark.sh ${{ github.sha }}
-
       - name: set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           cache: pip
-          cache-dependency-path: scripts/requirements.txt
-          python-version: 3.x
+          cache-dependency-path: requirements.txt
+          python-version: "3.11"
 
-      - name: set up CI dependencies
-        run: pip install -r scripts/requirements.txt
+      - name: set up Python CI dependencies
+        run: pip install -r requirements.txt
+
+      - name: detect changed files
+        id: detect-changed-files
+        run: |
+          changed_files="$(mktemp)"
+          git diff --diff-filter=d --name-only --no-renames -z master >"$changed_files"
+          printf 'CHANGED_FILES=%s\n' "$changed_files" >>"$GITHUB_ENV"
+
+      - name: check file sizes
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        run: xargs -0r meta/check-file-sizes.sh <"$CHANGED_FILES"
+
+      - name: run remark on changed files
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        continue-on-error: ${{ contains(github.event.pull_request.body, 'SKIP_REMARK') }}
+        run: |
+          grep -z '\.md$' <"$CHANGED_FILES" | \
+          REPORTER=vfile-reporter-github-action xargs -0r meta/remark.sh
 
       - name: run yamllint on .yaml and .md files
-        run: |
-          python scripts/ci/run_yamllint.py --config .yamllint.yaml
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        run: osu-wiki-tools check-yaml
 
       - name: find broken wikilinks
-        shell: bash
-        env:
-          PULL_REQUEST_TAG: 'SKIP_WIKILINK_CHECK'
-        run: |
-          if ${{ contains(github.event.pull_request.body, env.PULL_REQUEST_TAG) }}; then
-            echo "::notice::Broken wikilink check suppressed ($PULL_REQUEST_TAG tag found in the pull request)"
-            exit 0
-          fi
-
-          ARTICLES=$( git diff --diff-filter=d --name-only ${{ github.sha }}^ ${{ github.sha }} "wiki/**/*.md" "news/*.md" )
-          osu-wiki-tools check-links --target $ARTICLES
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        continue-on-error: ${{ contains(github.event.pull_request.body, 'SKIP_WIKILINK_CHECK') }}
+        run: osu-wiki-tools check-links --all
 
       - name: check if translations are marked as outdated
-        shell: bash
-        env:
-          PULL_REQUEST_TAG: 'SKIP_OUTDATED_CHECK'
-        run: |
-          if ${{ contains(github.event.pull_request.body, env.PULL_REQUEST_TAG) }}; then
-            echo "::notice::Outdated articles check suppressed ($PULL_REQUEST_TAG tag found in the pull request)"
-            exit 0
-          fi
-          # get the first commit of the branch associated with the PR; GitHub's ubuntu-latest has curl/jq: https://github.com/actions/virtual-environments
-          FIRST_PR_COMMIT_HASH=$( curl -sS ${{ github.event.pull_request.commits_url }}?per_page=1 | jq -r '.[0].sha' || true )
-          osu-wiki-tools check-outdated-articles --workflow --base-commit ${{ github.sha }} --outdated-since $FIRST_PR_COMMIT_HASH
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        continue-on-error: ${{ contains(github.event.pull_request.body, 'SKIP_OUTDATED_CHECK') }}
+        run: osu-wiki-tools check-outdated-articles --no-recommend-autofix

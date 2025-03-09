@@ -1,8 +1,12 @@
 ---
+outdated_translation: true
+outdated_since: aa750946913bfd81cd3ede0b23dbf925b56d7bdd
 tags:
   - supporter tag
   - osu!supporter tag
 ---
+
+<!--The strings on the website on line 150 have been updated as of https://github.com/ppy/osu-web/pull/9820. To update this page, also check if the corresponding strings on crowdin need to be updated.-->
 
 # osu!supporter
 
@@ -15,11 +19,11 @@ Tag osu!supporter dapat diperoleh melalui [laman toko osu!supporter](https://osu
 ### Lencana hati
 
 ::: Infobox
-![](img/userpage.png?1 "Laman profil milik pengguna dengan osu!supporter")
+![](img/userpage.png?20241103 "Laman profil milik pengguna dengan osu!supporter")
 :::
 
 ::: Infobox
-![](img/usercard.png?2 "Kartu pengguna milik pengguna dengan osu!supporter")
+![](img/usercard-ID.png?20241022 "Kartu pengguna milik pengguna dengan osu!supporter")
 :::
 
 Para supporter akan mendapatkan lencana khusus berbentuk hati di samping nama pengguna mereka, di mana jumlah hati yang muncul akan sebanding dengan lamanya mereka telah menjadi osu!supporter sebagai berikut<!-- source: https://github.com/ppy/osu-web/blob/ac227d6abbd48630ebbf428c4e3372f388004ee5/app/Models/User.php#L1733-L1750 -->:
@@ -83,9 +87,9 @@ Para supporter akan dapat menikmati berbagai fitur online yang osu! tawarkan sec
 
 | Fitur | Batas normal | Batas bagi pengguna dengan osu!supporter |
 | :-- | :-: | :-: |
-| [Beatmap Pending](/wiki/Beatmap/Category#work-in-progress-dan-pending) | `2 + min(jumlah beatmap Ranked, 6)`, hingga **8**[^pending-beatmaps-ref] | `8 + min(jumlah beatmap Ranked, 12)`, hingga **20**[^pending-beatmaps-ref] |
+| [Beatmap Pending](/wiki/Beatmap/Category#wip-and-pending) | `4 + min(jumlah beatmap Ranked, 4)`, hingga **8**[^pending-beatmaps-ref] | `8 + min(jumlah beatmap Ranked, 12)`, hingga **20**[^pending-beatmaps-ref] |
 | Beatmap favorit | 100 | 1000 |
-| Teman | 250 | 500 |
+| Teman | 500 | 1000 |
 
 Di samping itu, para supporter juga akan dapat menikmati batas unduhan yang lebih longgar secara umum.
 

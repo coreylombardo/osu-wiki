@@ -6,6 +6,8 @@ tags:
 
 # osu!supporter
 
+[![osu!supporter promotional image](img/supporter-eyecatch.jpg)](https://osu.ppy.sh/home/support)
+
 **osu!supporter** (or the ***osu!supporter tag***) is a temporary title given to players who support osu! by making a voluntary, monetary donation to help it thrive. Supporters receive a handful of cosmetic and technical benefits, most of which are active only when the title is present. The extra features from osu!supporter do not give any advantage in gameplay, performance, or score, and never will.
 
 The osu!supporter tag may be obtained from the [osu!supporter store page](https://osu.ppy.sh/store/products/supporter-tag).
@@ -15,11 +17,11 @@ The osu!supporter tag may be obtained from the [osu!supporter store page](https:
 ### Heart badge
 
 ::: Infobox
-![](img/userpage.png?1 "Profile with osu!supporter")
+![](img/userpage.png?20241103 "Profile with osu!supporter")
 :::
 
 ::: Infobox
-![](img/usercard.png?2 "User card with osu!supporter")
+![](img/usercard.png?20241022 "User card with osu!supporter")
 :::
 
 Supporters get a badge with hearts on it, usually found next to their username on the website. The amount of hearts depends on the duration of osu!supporter the user has acquired or received in total<!-- source: https://github.com/ppy/osu-web/blob/ac227d6abbd48630ebbf428c4e3372f388004ee5/app/Models/User.php#L1733-L1750 -->:
@@ -51,9 +53,18 @@ The `me!` section may be a good place for:
 Supporters can further customise their profile by setting a cover image:
 
 - Press the pencil icon in the lower right corner of the cover placeholder.
-- Select a new cover from a few predefined options, or upload your own image (its dimensions should be 2400x640).
+- Select a new cover from a few predefined options, or upload a custom image (its dimensions should be 2400x640).
 
 Once osu!supporter expires, the cover will remain, but cannot be changed.
+
+### Profile colour
+
+Akin to profile covers, supporters can alter the colour of their profile:
+
+- Press the pencil icon in the lower right corner of the profile cover.
+- Adjusting the profile colour alters the colour of almost everything, including the banner, buttons, links, and text.
+
+Once osu!supporter expires, the colour customisations will remain, but may only be changed back to default.
 
 ### One free username change
 
@@ -83,9 +94,10 @@ osu! offers more relaxed limits on various online features to supporters:
 
 | Value | Regular limit | osu!supporter limit |
 | :-- | :-: | :-: |
-| [Pending beatmaps](/wiki/Beatmap/Category#work-in-progress-and-pending) | `2 + min(ranked beatmaps, 6)`, up to **8**[^pending-beatmaps-ref] | `8 + min(ranked beatmaps, 12)`, up to **20**[^pending-beatmaps-ref] |
+| [Pending beatmaps](/wiki/Beatmap/Category#wip-and-pending) | `4 + min(ranked beatmaps, 4)`, up to **8**[^pending-beatmaps-ref] | `8 + min(ranked beatmaps, 12)`, up to **20**[^pending-beatmaps-ref] |
+| Team size | 8 | `8 + 4 * supporters in the team` up to **256** |
 | Online beatmap favourites | 100 | 1000 |
-| Friend count | 250 | 500 |
+| Friend count | 500 | 1000 |
 
 Additionally, bearers of osu!supporter are granted more lenient beatmap download limits.
 
@@ -127,28 +139,32 @@ The remaining osu!supporter duration, as well as total amount of contributions, 
 
 ## Getting osu!supporter
 
-::: Infobox
-![](img/store-product.jpg?2 "osu!supporter product banner from the osu!store")
-:::
-
 To get osu!supporter, visit the [osu!supporter store page](https://osu.ppy.sh/store/products/supporter-tag) and adjust the supporter tag duration using the slider, or the buttons with the number of months underneath. All prices are in United States dollars (USD) and don't include possible fees of the payment system.
 
 Afterwards, click `Add to Cart` to put the supporter tag into the osu!store shopping cart. To finalise the purchase, go to the [shopping cart](https://osu.ppy.sh/store/cart) and click `Checkout`, then follow on-screen prompts.
 
 ### Gifting osu!supporter
 
-osu!supporter may also be gifted to another player by entering their username into the grey box below the user card. More people can be added by going back to the store page and repeating the process.
+::: Infobox
+![](img/profile-gift-supporter.png "Dropdown menu button on a profile page for gifting someone osu!supporter")
+:::
 
-### Conclusion
+osu!supporter may also be gifted to another player by entering their username below the user card, or by clicking `Gift supporter tag` on their profile page. More people can be added by going back to the store page or someone else's profile and repeating the process.
+
+The recipient is not notified of who gave them the tag, but when gifting osu!supporter, an optional message can be attached to be sent alongside the notification email.
+
+### Confirmation
 
 After the transaction is completed, there will be a new event in the `Recent Activity` section in the profile of both the giver and the recipient:
 
-- `{username} has become an osu! supporter - thanks for your generosity!` if it is the first time the user gets osu!supporter.
-- `{username} has once again chosen to support osu! - thanks for your generosity!` if the user has been an osu!supporter before.
+- `{username} has supported osu! - thanks for your generosity!` if it is the first time the user gets osu!supporter or gifts it to someone else.
+- `{username} has once again chosen to support osu! - thanks for your generosity!` if the user has been an osu!supporter or gifted it before.
 - `{username} has received the gift of osu!supporter!` in case the tag was gifted.
 
-Additionally, both the giver and the recipient will receive e-mail notifications mentioning the purchase.
+The giver can also hide this event from their own profile by ticking `Hide all osu!supporter tags in this order from my activity` during checkout. This is useful for gifting anonymously because it prevents the recipient from cross-checking profile activity.
+
+Additionally, both the giver and the recipient will receive email notifications mentioning the purchase.
 
 ## References
 
-[^pending-beatmaps-ref]: [Increase the number of pending beatmap slots](https://osu.ppy.sh/community/forums/posts/8294132)
+[^pending-beatmaps-ref]: [Forum post by peppy (2021-09-14) in "Increase the number of pending beatmap slots"](https://osu.ppy.sh/community/forums/posts/8294132)

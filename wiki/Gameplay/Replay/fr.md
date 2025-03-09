@@ -4,7 +4,7 @@ outdated: true
 
 # Replay
 
-Un replay est une rediffusion ou émulation directe d'une partie, qu'elle soit réalisée par un joueur ou par le mod [Auto](/wiki/Game_modifier/Auto).
+Un replay est une rediffusion ou émulation directe d'une partie, qu'elle soit réalisée par un joueur ou par le mod [Auto](/wiki/Gameplay/Game_modifier/Auto).
 Tant que le fichier local avec pour extension `.osr` est disponible avec la bonne beatmap/difficulté ou un replay téléchargé via le `Classement général`, un replay complet peut être construit par osu! pour être regardé.
 
 ## Options du replay
@@ -13,13 +13,13 @@ Tant que le fichier local avec pour extension `.osr` est disponible avec la bonn
 
 Pour relancer un replay, restez appuyé sur un des boutons par défaut (`` ` ``/`~`) (qui peuvent être changés dans les [options dans la catégorie Clavier](/wiki/Client/Options#clavier) ; avec le bouton `Configurer les touches` -> **Quick Retry (hold briefly)**) ou en appuyant sur `Ctrl`+`R` pendant un court instant.
 L'écran devrait s'assombrir et un son sera joué lorsque le quick retry sera effectué.
-Relâcher trop tôt fera échouer le quick retry.
+Relâcher trop tôt entraînera l'échec du quick retry.
 
 Il est toujours possible d'accéder à la [console de tchat](/wiki/Client/Interface/Chat_console) (`F8`)/[console de tchat étendue](/wiki/Client/Interface/Chat_console#la-console-de-tchat-étendue) (`F9`) .
 Appuyez sur `Tab` pour cacher/afficher le classement actuellement sélectionné.
-Appuyez sur `H` pour cacher/afficher les éléments du replays exceptés les mods utilisés et la notice **UNRANKED** si la partie est jouée par [Auto](/wiki/Game_modifier/Auto).
+Appuyez sur `H` pour cacher/afficher les éléments du replays exceptés les mods utilisés et la notice **UNRANKED** si la partie est jouée par [Auto](/wiki/Gameplay/Game_modifier/Auto).
 
-Un replay avec le mod [Cinema](/wiki/Game_modifier/Cinema) va :
+Un replay avec le mod [Cinema](/wiki/Gameplay/Game_modifier/Cinema) va :
 
 - Cacher toutes les options de replay,
 - Désactiver l'accès au gameplay,
@@ -86,7 +86,7 @@ La touche de raccourci est la touche `Esc`.
 
 ## Types de replays
 
-*Toute la documentation concernant le format `.osr` : [.osr (format de fichier)](/wiki/osu!_File_Formats/Osr_(file_format))*
+*Toute la documentation concernant le format `.osr` : [.osr (format de fichier)](/wiki/Client/File_formats/osr_(file_format))*
 
 Pour exporter un replay, appuyez sur `F2` sur l'écran de résultat.
 Le replay exporté aura une extension de fichier `.osr` avec un format de nom de fichier propre comme indiqué ci-dessous :
@@ -145,10 +145,10 @@ Il est impossible d'essayer de redémarrer la beatmap pour la rejouer directemen
 
 Il ne fonctionne actuellement en `Solo` que lorsque l'écran de game over est affiché.
 
-Voir un replay échoué ne fonctionnera pas avec les mods [No Fail(NF)](/wiki/Game_modifier/No_Fail), [Relax(RL)](/wiki/Game_modifier/Relax)/[Auto Pilot(AP)](/wiki/Game_modifier/Autopilot) puisqu'il est impossible d'échouer.
-Utiliser le mod [Perfect(PF)](/wiki/Game_modifier/Perfect) effectuera automatiquement un quick retry au lieu d'afficher un écran de game over.
+Voir un replay d'une partie échouée ne fonctionnera pas avec les mods [No Fail(NF)](/wiki/Gameplay/Game_modifier/No_Fail), [Relax(RL)](/wiki/Gameplay/Game_modifier/Relax)/[Auto Pilot(AP)](/wiki/Gameplay/Game_modifier/Autopilot) puisqu'il est impossible d'échouer.
+Utiliser le mod [Perfect(PF)](/wiki/Gameplay/Game_modifier/Perfect) effectuera automatiquement un quick retry au lieu d'afficher un écran de game over.
 
-S'il y avait une chaîne de retry, celle-ci sera perdue une fois avoir lancé le replay échoué.
+S'il y avait une chaîne de retry, celle-ci sera perdue une fois avoir lancé le replay d'une partie échouée.
 
 ### Multi
 
@@ -215,12 +215,12 @@ Les `Options` ne peuvent pas être rouvertes pendant la partie ou sur l'écran d
 
 ![](img/Replay_server.jpg "A gauche se trouve le téléchargement d'un replay sur le serveur, à droite se trouve le replay en question.")
 
-Les replays sur le serveur sont réservés au top 50 sur le `Classement général` d'une difficulté/beatmap.
+Les replays sur le serveur sont réservés au top 1000 sur le `Classement général` d'une difficulté/beatmap.
 Ce replay sera sauvegardé sur le serveur.
 Il peut être exporté, téléchargé ou regardé directement sur demande.
 
 Lorsque vous regardez un replay depuis le classement (excluant les replays exportés), le nombre affiché à côté dans le compteur de "Replays regardés par les autres" sur le profil du joueur du replay augmentera de 1.
-Si un nouveau record global du top 50 a été ajouté, le replay du précédent détenteur de la position \#50 sera supprimé côté serveur.
+Si un nouveau record global du top 1000 a été ajouté, le replay du précédent détenteur de la position \#1000 sera supprimé côté serveur.
 
 Pour regarder un replay serveur, un compte osu! doit être connecté à Bancho.
 Sur *l'écran de sélection des beatmaps* en `Solo`, allez sur le `Classement général` et cliquez sur le joueur que vous souhaitez pour regarder le replay.

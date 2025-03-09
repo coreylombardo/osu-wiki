@@ -8,19 +8,19 @@ tags:
 
 ![CWC 2014 logo](img/logo.png)
 
-La **osu! Catch the Beat World Cup 2014** (***CWC 2014*** ) fue un torneo por países de Catch the Beat organizado por el [equipo osu!](/wiki/People/The_Team). Ha sido la 3ra entrega de la osu! Catch the Beat World Cup.
+La **osu! Catch the Beat World Cup 2014** (***CWC 2014*** ) fue un torneo por países de Catch the Beat organizado por el [equipo osu!](/wiki/People/osu!_team). Ha sido la 3ra entrega de la osu! Catch the Beat World Cup.
 
 ## Calendario
 
 | Evento | Fecha y Hora |
 | --: | :-- |
-| Inscripciones | 11-20 Abr 2014 |
-| Sorteos | 3 May 2014 (14:00 UTC) |
-| Fase de grupos | 17 May 2014 |
-| Octavos de final | 24 May 2014 |
-| Cuartos de final | 1 Jun 2014 |
-| Semifinales | 8 Jun 2014 |
-| Final | 15 Jun 2014 |
+| Inscripciones | 11/4/2014 - 20/4/2014 |
+| Sorteos | 3/5/2014 (14:00 UTC) |
+| Fase de grupos | 17/5/2014 |
+| Octavos de final | 24/5/2014 |
+| Cuartos de final | 1/6/2014 |
+| Semifinales | 8/6/2014 |
+| Final | 15/6/2014 |
 
 ## Premios
 
@@ -91,7 +91,7 @@ La **osu! Catch the Beat World Cup 2014** estuvo a cargo de varios miembros de l
 
 | Grupo A | Grupo B | Grupo C | Grupo D | Grupo E | Grupo F | Grupo G | Grupo H |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-| ::{ flag=PH }:: Filipinas  | ::{ flag=HK }:: Hong Kong | ::{ flag=TW }:: Taiwán | ::{ flag=AT }:: Austria | ::{ flag=MX }:: México | ::{ flag=ES }:: España | ::{ flag=KR }:: Corea del Sur | ::{ flag=AR }:: Argentina |
+| ::{ flag=PH }:: Filipinas | ::{ flag=HK }:: Hong Kong | ::{ flag=TW }:: Taiwán | ::{ flag=AT }:: Austria | ::{ flag=MX }:: México | ::{ flag=ES }:: España | ::{ flag=KR }:: Corea del Sur | ::{ flag=AR }:: Argentina |
 | ::{ flag=GB }:: Reino Unido | ::{ flag=PL }:: Polonia | ::{ flag=NL }:: Países Bajos | ::{ flag=FR }:: Francia | ::{ flag=DK }:: Dinamarca | ::{ flag=PE }:: Perú | ::{ flag=DE }:: Alemania | ::{ flag=CN }:: China |
 | ::{ flag=TH }:: Tailandia | ::{ flag=CL }:: Chile | ::{ flag=SG }:: Singapur | ::{ flag=MY }:: Malasia | ::{ flag=NZ }:: Nueva Zelanda | ::{ flag=FI }:: Finlandia | ::{ flag=CA }:: Canadá | ::{ flag=UY }:: Uruguay |
 | ::{ flag=US }:: Estados Unidos | ::{ flag=EE }:: Estonia | ::{ flag=NO }:: Noruega | ::{ flag=JP }:: Japón | ::{ flag=SE }:: Suecia | ::{ flag=HR }:: Croacia | ::{ flag=BO }:: Bolivia | ::{ flag=ID }:: Indonesia |
@@ -378,7 +378,7 @@ Sábado, 17 Mayo 2014:
 1. La osu! Catch the Beat World Cup es un torneo por países en equipos de 3v3.
 2. Los mapas de cada ronda serán anunciados por el selector de mapas con anticipación el domingo anterior a la fecha en la que los partidos tengan lugar. Solo estos mapas serán usados durante los respectivos partidos.
    - Un mapa será dado como desempate (o *tiebreaker*). Este mapa será jugado solo en caso de un empate.
-   - Habrá también mapas para [Hidden](/wiki/Game_modifier/Hidden), [HardRock](/wiki/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Game_modifier/Double_Time) y FreeMod.
+   - Habrá también mapas para [Hidden](/wiki/Gameplay/Game_modifier/Hidden), [HardRock](/wiki/Gameplay/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Gameplay/Game_modifier/Double_Time) y FreeMod.
 3. El programa de partidos será establecido por la organización del torneo (ver abajo).
 4. Si no hay un árbitro o miembro de la organización disponible, el partido será pospuesto.
 5. El puntaje de jugadores que fallen un mapa no se agrega al puntaje total del equipo
@@ -445,7 +445,7 @@ Sábado, 17 Mayo 2014:
 ### Instrucciones del mappool
 
 1. Habrá 1 mappool para la fase de grupos, 1 mappool para los 16avos, 1 mappool para los cuartos de final, 1 mappool para las semifinales y 1 mappool para la final.
-2. Cada mappool consiste de 5 grupos: NoMod, [Hidden](/wiki/Game_modifier/Hidden), [HardRock](/wiki/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Game_modifier/Double_Time) y FreeMod.
+2. Cada mappool consiste de 5 grupos: NoMod, [Hidden](/wiki/Gameplay/Game_modifier/Hidden), [HardRock](/wiki/Gameplay/Game_modifier/Hard_Rock), [DoubleTime](/wiki/Gameplay/Game_modifier/Double_Time) y FreeMod.
 3. Cada mappool consiste de 23 mapas en total.
 4. Cada mappool tiene un tiebreaker.
 5. Los mapas NoMod serán jugados sin mods activados.
